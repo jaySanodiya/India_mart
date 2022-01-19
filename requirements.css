@@ -15,7 +15,6 @@
 #main>.right{
     width:50%;
     height:700px;
-   
     margin-top: 6%;
 }
 #main>.left>div>.tell{
@@ -34,6 +33,8 @@
 }
 .left>.down{
     margin-top: 20%;
+    width:450px;
+    margin-left: -50px;
 }
 .need{
     color:rgb(82,85,100);
@@ -44,15 +45,21 @@
     color:gray;
     padding-bottom: 12px;
 }
-hr{
-    border:0.5px solid rgb(82, 86, 206);
-}
+
 .down>.part{
     display: flex;
+    padding: 34px 120px 34px 50px;
+border-style: solid;
+border-width: 0 0 1px;
+border-image-source: linear-gradient(90deg,#2e3192,rgba(149,27,61,0));
+border-image-slice: 1;
+width:100%;
 }
 .part>.qt{
     width:9%;
     color:rgb(46,49,146);
+    font-size: 26px;
+    margin-top:0 ;
 }
 .part>.part2{
     width:64%;
@@ -89,6 +96,7 @@ hr{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    margin-top: 16%;;
 }
 .dropdown-list{
     position: absolute;
