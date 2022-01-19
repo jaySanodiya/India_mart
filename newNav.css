@@ -1,0 +1,351 @@
+
+        
+        #nav{
+            height:60px;
+            width:100%;
+            background-color:rgb(46,49,146) ;
+            display: flex;
+            position:sticky;
+        }
+        #div1{
+            width:70%;
+            height:80%;
+            margin: 5px;
+            display: flex;
+        }
+        #div2{
+            width:30%;
+            height:80%;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 25% 15% 15% 20% 20%;
+            grid-template-rows: 1fr;
+            grid-gap: 3px;
+        }
+        #div2>div{
+            display: block;
+            text-align: center;
+        }
+        .search{
+            width:80%;
+            height:100%;
+            display:flex;
+            margin-left: 20px;
+        }
+        .search>div{
+            height: 75%;
+            width:75%;
+            display: flex;
+            margin:5px 15px;
+        }
+        .search>div>input{
+            width:60%;
+            height:95%;
+            border:0px;
+            margin-bottom: 2px; 
+        }
+        .search>div>input:focus{
+             outline: none;
+        }
+        .search>div>button>i{
+            margin-left:0px;
+
+        }
+        .search>div>button{
+            height:100%;
+            font-weight: bold;
+            width:20%;
+            text-align: center;
+            border:0px;
+            background-color: white;
+            justify-content: space-around;
+        }
+        .h_logo>a{
+            color:white;
+            width:15%;
+            height:100%;
+            display: flex;
+        }
+        h1{
+           color:white;
+           width:80%;
+           height:100%
+        }
+        #div2>div:hover>a>i{
+            color:white;
+        }
+        
+        #div2>div>a>i{
+            color:rgb(192, 188, 188);
+        }
+        .navmenu{
+            color:white;
+            margin:auto;
+            font-size: small;
+            margin-top: 8px;
+            position:relative;
+        }
+        .navmenu1{
+            color:white;
+            margin:auto;
+            font-size: small;
+            margin-top: 8px;
+        }
+        .navmenu2{
+            color:white;
+            margin:auto;
+            font-size: small;
+            margin-top: 8px;
+            position:relative;
+        }
+        .navmenu3{
+            color:white;
+            margin:auto;
+            font-size: small;
+            margin-top: 8px;
+        }
+        #optSign{
+            color:white;
+            background-color:rgb(46,49,146) ;
+            border:0px;
+        }
+        #div1>.h_logo>img{
+            width:100%;
+        }
+        #gsear{
+            background-color:rgb(0,166,153) ;
+            color:white;
+            font-size:medium;
+            font-weight: lighter;
+            width:15%;
+            border-bottom-right-radius: 2px;
+            border-top-right-radius: 2px;
+        }
+        #gsear>i{
+            color:rgb(240, 232, 232);
+        }
+        #gsear:hover{
+            background-color:rgb(54, 124, 118);
+        }
+        .search>div>.micro{
+            width:40px;
+            color:black;
+        }
+        .micro>i{
+            color: blue;
+            margin-top: 10px;
+            position: relative;
+        }
+        .micro{
+            background-color: white;
+            text-align: center;
+            position: relative;
+            height:100%;
+            width: 100%;
+        }
+        .micro .down{
+            background-color: black;
+            color: white;
+            width:100px;
+            font-size: 15px;
+            padding: 5px;
+            position:absolute;
+            border-radius: 5px;
+            margin-top: 35px;
+            margin-left: -65px;
+            display:none;
+        }
+        .down>a{
+            text-decoration: none;
+            color:white;
+        }
+        .micro:hover .down{
+            display: block;
+        } 
+        .search>.dis{
+           border:0px;
+           border-radius: 2px;
+           height:70%;
+           margin:auto;
+           margin-left: 15px;
+           background-color: white;
+           color:rgb(46,49,146) ;
+           font-weight: bolder;
+           font-size: 15px;  
+        }
+        .search>.dis a{
+            text-decoration:none;
+        }
+        .dis:hover {
+           filter:brightness(150%);
+           position: relative;
+        }
+        #loc{
+            border-bottom-left-radius: 2px;
+            border-top-left-radius: 2px;
+            background-color:white;
+            border:0 1px 0 0;
+        }
+        #loc>button>i{
+            padding-right: 5px;
+           
+        }
+        #loc>button{
+            background-color: white;
+            border-bottom-left-radius: 2px;
+            border-top-left-radius: 2px;
+            width:100%;
+            height:100%;
+            border:0;
+        }
+        .drop a{
+            text-decoration: none;
+            color:black
+        }
+        .drop{
+            margin:auto;
+            padding: 10px;
+            justify-content: space-evenly;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: white;
+        }
+        .drop a:hover,tr:hover{
+            background-color: rgb(223, 219, 219);
+        }
+        .add{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        #dropdown{
+            border-radius: 5px;
+            width:30%;
+            height:auto;
+            margin:auto;
+            box-sizing: border-box;
+            position: absolute;
+            opacity: 0;
+            margin-left: -50px;
+            display: none;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        .foot{
+            width:100%;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(235, 229, 229);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .foot>a>i{
+            color:skyblue;
+            margin-top: 20px;
+        }
+        .foot>a>i:hover{
+            background-color: skyblue;
+            color:white;
+        }
+        table{
+            margin:auto;
+            width:90%;
+            text-align: justify;
+        }
+        .menu1:hover #dropdown{
+            opacity: 1;
+            display:block;
+        }
+        .help{
+            border:1px;
+            width:250px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: white;
+            text-align: justify;
+            display: none;
+            margin-left: -50px;
+        }
+        .help p:hover{
+            background-color:rgb(231, 231, 231);
+        }
+        .help>div{
+            display: flex;
+            margin-top: -20px;
+            margin-bottom: -20px;
+            justify-content: space-evenly;
+        }
+        .help>p{
+            margin-left: 20px;
+        }
+        .help>h4{
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        .help>.helphead{
+            font-size: small;
+            color:grey;
+            margin-top:10px;
+        }
+        .help p i{
+            padding:5px;
+            color:grey;
+        }
+       .menu2:hover .help{
+           display: block;
+       }
+       .signPop{
+           width:250px;
+           border-radius: 5px;
+           background-color: white;
+           display: none;
+           margin-left: -200px;
+           text-align: justify;
+           padding:5px;
+           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+       }
+       .signPop>div{
+           margin-left: 25px;
+           margin-top: 10px;
+       }
+       .signPop>div>p>a>i{
+           padding-right: 10px;
+           color:grey;
+       }
+       .signPop>div:nth-child(1){
+           padding-right: 20px;
+       }
+       .signPop>div>p>a{
+           text-decoration: none;
+           color:black;
+       }
+       .signPop>div>.p1,.p2{
+           font-size: small;
+       }
+       .signPop>div>.p2{
+          text-align:right;
+       }
+       .signPop>div>p:hover{
+           background-color: rgb(204, 203, 203);
+       }
+       .menu3:hover .signPop{
+           display: block;
+       }
+       .btnInpt{
+           width:fit-content;
+           padding:5px;
+           border-radius: 5px;
+           display:none;
+           background-color: white;
+       }
+       .sbar:hover .btnInpt{
+           display: block;
+       }
+       
+       
+    
+
+       
+        
+        
+ 
