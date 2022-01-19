@@ -1,0 +1,254 @@
+body {
+  background-color: #f3f3f3;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  border-top: 3px solid rgb(63, 65, 219);
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  background-color: white;
+  padding: 15px;
+}
+.containerdiv {
+  margin-top: -25px;
+}
+p {
+  color: rgb(79, 84, 88);
+}
+.maindiv {
+  width: 100%;
+  display: flex;
+  /* border: 1px solid  */
+}
+.leftdiv {
+  width: 22%;
+  height: 100%;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+.leftdivimage {
+  height: 100%;
+}
+.leftdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.rightdiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 215px);
+  grid-gap: 15px;
+  width: 78%;
+  height: 100%;
+  margin-left: 20px;
+}
+.gridonlytwo {
+  grid-template-rows: repeat(2, 215px);
+}
+.gridonlyless {
+  grid-template-rows: repeat(2, 170px);
+}
+.rightinner {
+  display: flex;
+  border: 1px solid rgb(211, 194, 194);
+}
+.rightinner > p {
+  color: red;
+}
+.imagediv {
+  width: 28%;
+  margin-right: 10px;
+}
+.imgdiv {
+  width: 100%;
+  margin-top: 20px;
+  height: 60%;
+}
+.contentdiv {
+  line-height: 12px;
+  font-size: 14px;
+}
+.leftinner > button {
+  padding: 12px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  width: 120px;
+  background-color: #19a598;
+}
+.leftinner {
+  position: absolute;
+  top: 50px;
+  margin-top: 65%;
+  margin-left: 20px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.fooddiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.fooddiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.fooddiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.apprealdiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.apprealdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.apprealdiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.indplantdiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.indplantdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.indplantdiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.indproductdiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.indproductdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.indproductdiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.electronicdiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.electronicdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.electronicdiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+.buildingdiv {
+  position: relative;
+  width: 22%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(24, 22, 22),
+    rgb(29, 29, 28)
+  );
+}
+
+.buildingdiv > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.buildingdiv > .leftinner {
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  color: white;
+  background-color: transparent;
+  line-height: 12px;
+  font-size: normal;
+  font-family: arial;
+}
+
