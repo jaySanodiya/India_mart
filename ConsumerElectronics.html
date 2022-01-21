@@ -7,6 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="Chemical.css">
 </head>
+<style>
+   .mainBag > div > a{
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    .mainBag > div > a:hover{
+        color: rgb(240, 49, 49);
+    }
+</style>
 <body>
     <div id="nav">
         <div id="div1">
@@ -295,6 +304,15 @@
 <script>
  ChemicalData = [
 {
+h3:"Mobile Phone & Accessories",
+imgUrl:"https://4.imimg.com/data4/DS/BU/GLADMIN-2/750_mobile_phone_and_accessories-125x125.jpg",
+p1:"Door",
+p2:"Window",
+p3:"Wooden Door",
+p4:"Metal Window",
+p5:"Metal Doors"
+},
+{
 h3:"Indoor Lights & Lighting Accessories",
 imgUrl:"https://4.imimg.com/data4/QT/HS/GLADMIN-2/led-lights-125x125.jpg",
 p1:"Light Bulb",
@@ -576,15 +594,6 @@ p4:"Crane Spare Parts",
 p5:"Hoist"
 },
 {
-h3:"Mobile Phone & Accessories",
-imgUrl:"https://4.imimg.com/data4/DS/BU/GLADMIN-2/750_mobile_phone_and_accessories-125x125.jpg",
-p1:"Door",
-p2:"Window",
-p3:"Wooden Door",
-p4:"Metal Window",
-p5:"Metal Doors"
-},
-{
 h3:"Batteries & Charge Storage Devices",
 imgUrl:"https://3.imimg.com/data3/VK/UJ/GLADMIN-2/36_battery-and-storage-devices-125x125.jpg",
 p1:"Plywoods",
@@ -734,8 +743,10 @@ p5:"Staff Locker"
     ChemicalData.map(function(elem){
     var div1 = document.createElement("div");
     div1.setAttribute("class","mainbox");
+    var a1 = document.createElement("a");
+    a1.setAttribute("href","mobile-parts-accessories.html")
     var h = document.createElement("h3");
-    h.textContent = elem.h3;
+    a1.textContent = elem.h3;
     var div2 = document.createElement("div");
     div2.setAttribute("class","innerBag");
     var div3 = document.createElement("div");
@@ -767,7 +778,8 @@ p5:"Staff Locker"
     div4.append(bline);
     div3.append(image);
     div2.append(div3,div4);
-    div1.append(h,div2)
+    // a1.append(h);
+    div1.append(a1,div2)
     document.querySelector(".mainBag").append(div1);
     })
     </script>
