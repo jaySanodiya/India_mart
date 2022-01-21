@@ -645,17 +645,25 @@ body {
   }
   .contentdiv > p {
   color: rgb(79, 84, 88);
+  font-size: small;
+  line-height: 10px;
   margin: 15px;
   /* border: 1px solid red; */
   }
   .contentdiv > p:hover {
     text-decoration:underline;
-    color: blue;
+    color: rgb(86, 86, 228);
     cursor: pointer;
+  }
+  .contentdiv > h1 {
+    margin: 10px;
+  }
+  .contentdiv > h3 {
+    font-size: 14px;
   }
   .contentdiv > h3:hover{
     text-decoration:underline;
-    color: blue;
+    color: rgb(86, 86, 228);
     cursor: pointer;
   }
   .maindiv {
@@ -668,7 +676,6 @@ body {
     color:rgb(0,0,0);
   }
   .containerdiv > a{
-
     text-decoration: none;
   }
   .leftdiv {
@@ -689,10 +696,19 @@ body {
   height: 100%;
   opacity: 0.5;
   }
+  .rightdiv1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 220px);
+    grid-gap: 15px;
+    width: 78%;
+    height: 100%;
+    margin-left: 20px;
+  }
   .rightdiv {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 215px);
+  grid-template-rows: repeat(3, 170px);
   grid-gap: 15px;
   width: 78%;
   height: 100%;
@@ -701,11 +717,15 @@ body {
   .gridonlytwo {
   grid-template-rows: repeat(2, 215px);
   }
-  .gridonlyless {
+  .rightdiv > .gridonlyless {
   grid-template-rows: repeat(2, 170px);
+  }
+  .rightdiv1 > .gridonlyless {
+    grid-template-rows: repeat(2, 200px);
   }
   .rightinner {
   display: flex;
+  /* height: 170px; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   /* height: 200px; */
   

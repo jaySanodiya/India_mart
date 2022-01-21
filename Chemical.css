@@ -444,7 +444,7 @@ background-color: rgb(234, 238, 243);
 }
 #chemical {
 width: 90%;
-margin:70px 50px 40px;
+margin:70px 50px 50px;
 display: flex;
 }
 #chemical > a {
