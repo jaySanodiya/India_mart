@@ -21,12 +21,16 @@
     display: flex;
     margin-left: 7%;
 }
+#phone>.navBar>.right>.all>b{
+    text-underline-offset: 12px;
+}
 #phone>.navBar>.right>div{
     margin:9px;
 }
 #phone>.navBar>.right>div:hover{
     text-decoration: underline;
     cursor: pointer;
+    text-underline-offset: 12px;
 }
 .bottom{
     display: flex;
@@ -69,6 +73,15 @@
     cursor: pointer;
 }
 .barbottom>.ul:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.barbottom>button{
+    background-color: white;
+    border:none;
+    font-size: 14px;
+}
+.barbottom>button:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -173,4 +186,5 @@
 }
 .lists #whole>div>.button:hover{
     cursor: pointer;
+    transform: scale(1.03);
 }
