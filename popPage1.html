@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popPage1.css">
+</head>
+<body>
+    <div class="B1">
+        <div></div>
+        <div>
+            <div>
+                <h2 style="font-weight: lighter;">Adding a few details of your requirment can get you quick response from the supplier</h2>
+            </div>
+            <div>
+                <form action="">
+                    <p>Quantity</p>
+                    <div class="qnty">
+                       <input type="number">
+                       <div>Piece</div>
+                    </div>
+                    <p>Why do you need this</p>
+                    <div class="chec">
+                        <input type="checkbox">
+                        For Reselling
+                        <input type="checkbox">
+                        For Business Use
+                        <input type="checkbox">
+                        For Home Use
+                    </div>
+                    <p>Requirements Details</p>
+                    <textarea name="" id="" cols="50" rows="5" placeholder="Additional dtails about your requirements..."></textarea>
+                    <div>
+                        <input class="button" type="submit" value="Next">
+                    </div>
+                </form>
+                <div class="bot">
+                      <h3>Your Contact Information :</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",next)
+
+    function next(event){
+        event.preventDefault();
+        var qnty = document.querySelector(".qnty>input").value
+        
+        localStorage.setItem("quantity",JSON.stringify(qnty));
+
+        window.location.href="pop2.html";
+    }
+</script>
