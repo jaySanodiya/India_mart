@@ -663,8 +663,13 @@ body {
   display: flex;
   /* border: 1px solid  */
   }
-  .containerdiv > h1{
+  .containerdiv > a > h1 {
     margin-bottom: 15px;
+    color:rgb(0,0,0);
+  }
+  .containerdiv > a{
+
+    text-decoration: none;
   }
   .leftdiv {
   width: 22%;
@@ -1043,6 +1048,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 #Bfeedback >.BfeedbackBox4 > input {
   width: 400px;
   height: 30px;
+  padding: 2px;
   font-size: large;
 }
 #Bfeedback >.BfeedbackBox5{
@@ -1058,6 +1064,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #Bfeedback >.BfeedbackBox6 > textarea {
   width: 400px;
+  padding: 2px;
   font-size:large;
 }
 #Bfeedback >.BfeedbackBox7{
@@ -1158,14 +1165,16 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 
 #footer > #lastfooter{
+  background-color:white;
   display:flex;
   position: absolute;
   left: 200px;
-  margin: 20px 0 0 0;
+  margin: 0px;
   color: rgb(101, 105, 106);
   }
   #footer > #lastfooter > ul {
     list-style-type: none;
+    line-height: 25px;
     cursor: pointer;
 
   }

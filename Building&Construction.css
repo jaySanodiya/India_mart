@@ -6,8 +6,9 @@
     background-color:rgb(46,49,146) ;
     display: flex;
     z-index: 2;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     }
     #nav > #div1{
     width:70%;
@@ -45,14 +46,14 @@
     }
     #nav > #div1>.search>div>input{
     width:60%;
-    height:100%;
+    height:95%;
     border:0;
     }
     #nav > #div1>.search>.sbar>#loc>button {
-    height: 36px;
+        height: 36px;
     }
     #nav > #div1>.search>div>input:focus{
-    outline: none;
+        outline: none;
     }
     #nav > #div1>.search>div>button>i{
     margin-left:0px;
@@ -122,6 +123,8 @@
     font-size:medium;
     font-weight: lighter;
     width:15%;
+    height: 100%;
+    border:0px;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     }
@@ -188,11 +191,11 @@
     border-bottom-left-radius: 2px;
     border-top-left-radius: 2px;
     background-color:white;
-    border:0 1px 0 0;
+    border-right: 1px solid gray;
     }
     #loc>button>i{
-    padding-right: 5px;
-    
+    padding: 5px;
+    color:rgb(184, 178, 178);
     }
     #loc>button{
     background-color: white;
@@ -200,7 +203,7 @@
     border-top-left-radius: 2px;
     width:100%;
     height:100%;
-    border:0;
+    border:0;  
     }
     .drop a{
     text-decoration: none;
@@ -208,17 +211,44 @@
     }
     .drop{
     margin:10px;
-    border: 1px solid red;
     padding: 10px;
     text-align: left;
-    /* justify-content: space-evenly; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: white;
     }
+    .drop>table{
+      width:100%;
+    }
+    #dropdown a{
+      font-size: small;
+    }
+    #dropdown tr th{
+      font-size: small;
+    }
+    #dropdown .t1{
+      height: 270px;
+      width:100%;
+    }
+    .drop a i{
+       color:rgb(185, 185, 185);
+       padding-right:5px;
+    }
+    #dropdown .t2{
+      height: 270px;
+      width:100%;
+    }
+    #dropdown .t2 .th2{
+      padding-left: 30px;
+    }
+    #dropdown .t2 .th2 a{
+      padding-left: 40px;
+    } 
+    
     #dropdown{
     border-radius: 5px;
-    width:35%;
+    width:40%;
+    background-color: white;
     height:auto;
     margin:auto;
     box-sizing: border-box;
@@ -235,8 +265,14 @@
     text-decoration: underline;
     font-weight: bold;
     }
+     #dropdown .add1 a {
+      text-decoration: underline;
+      font-weight: bold;
+      padding-left: 70px;
+      }
     .foot{
     width:100%;
+    height: 60px;
     /* text-align: center; */
     display: flex;
     justify-content: space-evenly;
@@ -247,6 +283,9 @@
     .foot>a>i{
     color:skyblue;
     margin-top: 20px;
+    }
+    .foot>h3{
+      margin-top: 20px;
     }
     .foot>a>i:hover{
     background-color: skyblue;
@@ -264,9 +303,11 @@
     .help{
     border:1px;
     width:250px;
+    font-size: small;
+    height: auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
     background-color: white;
     text-align: justify;
     display: none;
@@ -277,16 +318,25 @@
     }
     .help>div{
     display: flex;
-    margin-top: -20px;
-    margin-bottom: -20px;
-    justify-content: space-evenly;
+    margin-left: -8px;
+    /* margin-top: -20px;
+    margin-bottom: -20px; */
+    justify-content: space-around;
+    }
+    .help p a{
+      text-decoration: none;
+      color:black;
+      font-weight: bold;
+    }
+    .help p a {
+      text-align: center;
     }
     .help>p{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     }
     .help>h4{
-    margin-top: -10px;
-    margin-left: 20px;
+    margin-left: 30px;
     }
     .help>.helphead{
     font-size: small;
@@ -302,35 +352,75 @@
     }
     .signPop{
     width:250px;
+    height: 420px;
+    font-size: small;
     border-radius: 5px;
     background-color: white;
     display: none;
     margin-left: -200px;
     text-align: justify;
-    padding:5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
     .signPop>div{
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 30px;
     }
-    .signPop>div>p>a>i{
+    .signPop div .profile a i{
     padding-right: 10px;
     color:grey;
     }
-    .signPop>div:nth-child(1){
-    padding-right: 20px;
+    .signPop .profile{
+      margin-top: 0px;
+      padding-bottom: 5px;
     }
+    .signPop .profile a{
+      margin-left: -15px;
+    }
+    .signPop .profile1 {
+      height:60px;
+      margin:auto;
+      padding-top: 5px;
+      text-align: centre;
+    }
+    .signPop .profile1 a{
+      margin-left: 10px;
+    }
+    .signPop .profile1 a i{
+      margin-top: 15px;
+      color:grey;
+    }
+    .signPop>div:nth-child(1){
+      padding-top: 10px;
+      height:40px;
+      text-align: center;
+      font-size: small;
+    }
+    .signPop i{
+      padding-right: 5px;
+    }
+    .signPop>div:nth-child(1)>div{
+      width:fit-content;
+      font-size: x-small;
+      margin-bottom: 0;
+    }
+    .signPop .las{
+      margin:auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .signPop .profile i{
+      padding-top: 20px;
+      color:rgb(168, 168, 168)
+    }
+  
     .signPop>div>p>a{
     text-decoration: none;
     color:black;
     }
     .signPop>div>.p1,.p2{
-    font-size: small;
+    font-size:x-small;
     }
-    .signPop>div>.p2{
-    text-align:right;
-    }
+    
     .signPop>div>p:hover{
     background-color: rgb(204, 203, 203);
     }
@@ -347,6 +437,7 @@
     .sbar:hover .btnInpt{
     display: block;
     }
+  
     /* -------------------------body------------------- */
     
     body {
@@ -354,7 +445,7 @@
     }
     #chemical {
     width: 90%;
-    margin:50px;
+    margin:70px 50px 40px;
     display: flex;
     }
     #chemical > a {
