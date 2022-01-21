@@ -1,0 +1,176 @@
+#phone{
+    background-color: rgb(241,242,242);
+    padding-top: 20px;
+}
+
+#phone>.navBar{
+    display: flex;
+    width:95%;
+    margin: auto;
+    background-color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding:7px;
+    margin-bottom:8px;
+}
+#phone>.navBar>.left{
+    display: flex;
+    margin-top: 9px;
+}
+#phone>.navBar>.right{
+    display: flex;
+    margin-left: 7%;
+}
+#phone>.navBar>.right>div{
+    margin:9px;
+}
+#phone>.navBar>.right>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+}
+.bottom>.searched{
+    width:13%;
+    font-size: 14px;
+    margin-left: 34px;;
+}
+.bottom>.searched>div{
+    background-color: white;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+.ul{
+    padding-left: 20px;;
+}
+.bar{
+    border:1px solid rgb(207, 205, 205);
+    padding:8px 0px 8px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: rgb(242,242,242);
+    padding-left: 10px;
+    margin-bottom: 20px;  
+}
+.bar:hover{
+    cursor: pointer;
+}
+.barbottom{
+    padding-left: 10px;;
+    line-height: 22px;
+}
+.barbottom>.li{
+    border:none;
+    background-color: white;
+}
+.barbottom>.li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.barbottom>.ul:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lists{
+    margin-left: 10px;
+    width:880px;
+    font-family: sans-serif;
+    margin-top: -20px;
+}
+.lists>.listTop{
+    display: flex;
+}
+.lists>.listTop>div{
+    width:30%;
+    background-color: white;
+    border-radius: 6px;
+    margin-left:5px;
+    margin-right: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.lists>.listTop>div>img{
+    padding-left: 45px;
+}
+.lists>.listTop>div>div{
+    background-color: rgb(246,246,246);
+    text-align: center;
+    font-size: 15px;
+    height:24px;
+    padding-top: 8px;
+}
+.lists>.listTop>div:hover{
+    transform: scale(1.16);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.lists #whole{
+    
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.lists #whole>div{
+    
+    width:98%;
+    height:470px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.lists #whole>div:hover{
+    cursor: pointer;
+}
+.lists #whole>div>.imgeDiv{
+    width:100%;
+    height:250px;
+    padding-left: 17px;
+}
+.lists #whole>div>.imgeDiv>img{
+    width:85%;
+    height:100%;
+}
+.lists #whole>div>.name{
+    color:blue;
+    font-size: 14px;
+    height:29px;
+    text-align: center;
+}
+.lists #whole>div>.name:hover{
+    color:red;
+}
+.lists #whole>div>.price{
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    height:10px;
+}
+.lists #whole>div>.shopName{
+    font-size: 13px;
+    text-align: center;
+    height:10px;
+}
+.lists #whole>div>.place{
+    font-size: 11px;
+    color:gray;
+    height:10px;
+    text-align: center;
+}
+.lists #whole>div>.button{
+    background-color: rgb(4,126,116);
+    color:white;
+    font-weight: 600;
+    font-size: 17px;
+    border:none;
+    padding:10px 30px 10px 30px;
+    margin-left: 26px;
+    border-radius: 5px;
+}
+.lists #whole>div>.button:hover{
+    cursor: pointer;
+}
