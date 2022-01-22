@@ -24,15 +24,15 @@
                 <div class="firstfeedback nameboxmargin">Name</div>
                 <div>
                   <div class="feedBackBox2Input inputwidth">
-                    <input type="tel" placeholder="" />
+                    <input id="uName" type="text" placeholder="" />
                   </div>
                 </div>
               </div>
               <div class="namefirstdiv">
-                <div class="firstfeedback designnationboxmargin">Designmation</div>
+                <div class="firstfeedback designnationboxmargin">Designation</div>
                 <div>
                   <div class="feedBackBox2Input inputwidth">
-                    <input type="tel" placeholder="" />
+                    <input id="uDesig" type="text" placeholder="" />
                   </div>
                 </div>
               </div>
@@ -46,7 +46,7 @@
                       width="30px"
                     />
                     <h4 class="feedBackBox2InputHtag">+91</h4>
-                    <input type="tel" placeholder="" />
+                    <input id="uNumber" type="tel" placeholder="" />
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@
                 <div class="firstfeedback emailidboxmargin">Email ID</div>
                 <div>
                   <div class="feedBackBox2Input inputwidth">
-                    <input type="tel" placeholder="" />
+                    <input id="uEmail" type="email" placeholder="" />
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@
                       width="30px"
                     />
                     <h4 class="feedBackBox2InputHtag">+91</h4>
-                    <input type="tel" placeholder="" />
+                    <input id="uAltNum" type="tel" placeholder="" />
                   </div>
                 </div>
               </div>
@@ -77,18 +77,18 @@
                 <div>
                   <div class="feedBackBox2Input inputwidth">
       
-                    <input type="tel" placeholder="" />
+                    <input id="uAltMail" type="email" placeholder="" />
                   </div>
                 </div>
               </div>
             </div>
             <div class="secondboxinsidenameclass">
-              <img src="https://my.imimg.com/gifs_new/proimg.png" alt="" />
+              <img src="https://my.imimg.com/gifs_new/proimg.png" height="150px" alt="" />
               <h4>Profile Picture</h4>
             </div>
           </div>
           <div class="savediv">
-            <button>Save</button>
+            <button onclick="saveProfile()">Save</button>
           </div>
         </div>
       </div>
@@ -96,5 +96,24 @@
   </body>
 </html>
 <script>
-  
+  userData = [];
+  function saveProfile(){
+    var a = document.querySelector("#uName").value;
+    var b = document.querySelector("#uNumber").value;
+    var c = document.querySelector("#uEmail").value;
+    var d = document.querySelector("#uAltNum").value;
+    var e = document.querySelector("#uAltMail").value;
+    UserObj = {
+      UsrName:a,
+      UsrNum:b,
+      UsrAltNum:d,
+      UsrEmail:c,
+      UsrAltEmail:e
+    };
+    userData.push(UserObj);
+    console.log(userData);
+    localStorage.setItem("USERDATA",JSON.stringify(userData));
+    window.location.href="myProfile.html";
+  }
+
 </script>

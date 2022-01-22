@@ -64,7 +64,7 @@
                                         <div>on your mobile <b>+91- 7008865028</b></div>
                                     </div>
                                 </div>
-                                <button class="otpbutton" type="button" data-target="#mymodel1" data-toggle="modal1">Send OTP</button>
+                                <input id="otpbutton" type="submit" value="Send OTP">
                                 <p class="or">OR</p>
                                 <button class="req">Request OTP on Email</button>
                                 <button class="req1">Login With Password</button>
@@ -90,3 +90,9 @@
 </body>
 </html>
 <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+<script>
+    var btn=document.querySelector("#otpbutton");
+    btn.addEventListener("click",function(){
+        window.location.href="otppage.html";
+    })
+</script>
