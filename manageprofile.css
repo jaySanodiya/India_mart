@@ -1,0 +1,126 @@
+body {
+  background-color: #e8eaeb;
+}
+#containermanage {
+  width: 80%;
+  margin: auto;
+  /* border:1px solid red; */
+}
+.Topmanage {
+  width: 100%;
+  height: 50px;
+  /* border:1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.Topmanage > button {
+  height: 90%;
+  width: 130px;
+  color: rgb(47, 26, 168);
+  background-color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid rgb(153, 143, 143);
+}
+.bottommanage {
+  width: 100%;
+  background-color: white;
+  /* border:1px solid tan; */
+}
+.bottommanage > div {
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(211, 233, 233);
+
+}
+.personalclass {
+  width: 100%;
+  height: 50px;
+  padding:10px;
+  /* border: 1px solid rgb(185, 218, 221); */
+}
+.nameclass {
+  display: flex;
+    border-top: 1px solid rgb(185, 218, 221);
+
+  padding:10px;
+}
+.firstboxinsidenameclass {
+  width: 60%;
+  /* border:1px solid blue */
+}
+
+.secondboxinsidenameclass {
+  width: 40%;
+  text-align: center;
+  margin-top: 40px;
+  /* border: 1px solid green; */
+}
+.secondboxinsidenameclass > h4 {
+  color: rgb(156, 129, 129);
+}
+.namefirstdiv {
+  width: 100%;
+  display: flex;
+}
+.feedBackBox2Input {
+  height: 30px;
+  background-color: white;
+  width: 100%;
+  margin: 15px 0px 15px 10px;
+  display: flex;
+  border: 1px solid rgb(133, 131, 131);
+}
+.feedBackBox2Input > img {
+  height: 12px;
+  width: 18px;
+  padding: 8px 10px;
+  border-right: 1px solid rgb(147, 144, 144);
+}
+.feedBackBox2InputHtag {
+  padding: 5px 2px;
+  font-weight: 100;
+  width: 60px;
+  margin-top: 3px;
+}
+.feedBackBox2Input > input {
+  border: 0;
+  width: 200px;
+  font-size: 15px;
+  margin: 0px;
+}
+.firstfeedback {
+  padding: 25px;
+}
+.nameboxmargin {
+  margin-right: 120px;
+}
+.designnationboxmargin {
+  margin-right: 70px;
+}
+.mobileboxmargin {
+  margin-right: 60px;
+}
+.emailidboxmargin {
+  margin-right: 105px;
+}
+.alteridboxmargin {
+  margin-right: 43px;
+}
+.inputwidth {
+  width: 320px;
+}
+
+.savediv {
+  display: flex;
+  justify-content: flex-end;
+}
+.savediv > button {
+  padding: 15px;
+  width: 100px;
+  margin: 20px 30px 30px;
+  background-color: #b3b3b3;
+  border: 1px solid rgb(153, 143, 143);
+  font-weight: bold;
+}
