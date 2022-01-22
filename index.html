@@ -233,10 +233,10 @@
             <div class="feedBackBox2Input">
                 <img src="https://img.search.brave.com/OYQsXJLn0d4B2oZW879wk3BTvHGWgHtNVCYycbEUljo/rs:fit:748:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/ajZaeEhIX1loZXpF/M2JhQWgwTU53SGFF/cyZwaWQ9QXBp" alt="" width="30px">
                 <h4 class="feedBackBox2InputHtag">+91 -</h4>
-                <input type="tel" placeholder="Enter Your Mobile Number">
+                <input id="HereIsNewNum" type="tel" placeholder="Enter Your Mobile Number">
             </div>
             <div id="feedBackBox2InputBtn">
-                <button>Update <span>&#8594;</span></button>
+                <button onclick="UserNumberUpdate()" >Update <span>&#8594;</span></button>
             </div>
         </div>
         <div class="feedBackBox2InputBtm">
@@ -2832,4 +2832,7 @@
         // r.textContent=elem.UsrNum;
     }
 
+ function UserNumberUpdate(){
+ r.textContent=document.querySelector("#HereIsNewNum").value;
+ }
 </script>
