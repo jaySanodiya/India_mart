@@ -330,10 +330,12 @@
     }
     .help p a {
       text-align: center;
+      font-size: 12px;
     }
     .help>p{
     margin-left: 10px;
     margin-top: 10px;
+    font-size: 12px;
     }
     .help>h4{
     margin-left: 30px;
@@ -352,18 +354,47 @@
     }
     .signPop{
     width:250px;
-    height: 420px;
+    height: 560px;
     font-size: small;
     border-radius: 5px;
     background-color: white;
     display: none;
-    margin-left: -200px;
+    margin-left: -160px;
+    margin-top: -10px;
     text-align: justify;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+    .signPop .optSign{
+      margin-top: 5px;
+    }
+    .signPop .sig1{
+      display: grid;  
+      padding-bottom: 40px;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      grid-template-rows: 10px 20px 10px ;
+    }
+    
+    .signPop .sig1 p{
+      font-size: medium;
+    }
+    .signPop .sig1 .ico{
+      display: flex;
+    }
+    .signPop .sig1 .ico i{
+      color: rgb(83, 207, 83);
+      font-size:small;
+      padding:17px 10px ;
+    }
+    .signPop .sig1 a{
+      text-decoration: none;
+    }
+    .signPop .sig1 a:hover{
+      text-decoration: underline;
+    }
     .signPop>div{
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
     }
     .signPop div .profile a i{
     padding-right: 10px;
@@ -375,19 +406,21 @@
     }
     .signPop .profile a{
       margin-left: -15px;
+      font-size: medium;
     }
     .signPop .profile1 {
-      height:60px;
+      height:80px;
       margin:auto;
-      padding-top: 5px;
       text-align: centre;
+      margin-top: -10px;
     }
     .signPop .profile1 a{
       margin-left: 10px;
+      font-size: medium;
     }
     .signPop .profile1 a i{
-      margin-top: 15px;
       color:grey;
+      padding-bottom: 10px;
     }
     .signPop>div:nth-child(1){
       padding-top: 10px;
@@ -407,9 +440,10 @@
       margin:auto;
       text-align: center;
       margin-top: 20px;
+      font-size: medium;
     }
     .signPop .profile i{
-      padding-top: 20px;
+      padding-top: 10px;
       color:rgb(168, 168, 168)
     }
   
