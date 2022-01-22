@@ -1,4 +1,9 @@
+body {
+    background-image: url("bgImg.jpg");
+}
 body>#otpfile{
+    
+    background-color: white;
     width:31%;
     margin: auto;
     margin-top: 15%;
