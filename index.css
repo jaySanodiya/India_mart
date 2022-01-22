@@ -116,6 +116,7 @@ body {
   color:white;
   background-color:rgb(46,49,146) ;
   border:0px;
+  margin-top: 5px;
   }
   #div1>.h_logo>img{
   width:100%;
@@ -173,7 +174,8 @@ body {
   display: block;
   } 
   .search>.dis{
-  border:0px;
+  border:1px solid white;
+  padding:0 1px;
   border-radius: 2px;
   height:70%;
   margin:auto;
@@ -182,6 +184,7 @@ body {
   color:rgb(46,49,146) ;
   font-weight: bolder;
   font-size: 15px;  
+  
   }
   .search>.dis a{
   text-decoration:none;
@@ -353,17 +356,31 @@ body {
   .menu2:hover .help{
   display: block;
   }
+ 
   .signPop{
   width:250px;
-  height: 420px;
+  height: 440px;
   font-size: small;
   border-radius: 5px;
   background-color: white;
+  margin-left: -160px;
+  margin-top: -20px;
   display: none;
-  margin-left: -200px;
   text-align: justify;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
+ .signPop .sig{
+   padding: 20px;
+   height:max-content;
+ }
+  
+ .signPop .sig button{
+   background-color:royalblue;
+   color: white;
+   border: 0;
+   border-radius: 3px;
+   padding: 3px;
+ }
   .signPop>div{
   margin-left: 25px;
   margin-top: 30px;
