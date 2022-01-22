@@ -527,6 +527,9 @@ var medical=[
     var button=document.createElement("button");
     button.setAttribute("class","button");
     button.textContent="Contact Supplier";
+    button.addEventListener("click",function(){
+        window.location.href="popPage1.html";
+    });
     div.append(div1,name,price,shopName,place,mobile,button);
     document.querySelector("#whole").append(div);
 });
