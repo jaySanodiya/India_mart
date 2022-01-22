@@ -1,6 +1,10 @@
-
-/* -----------------------------nav start----------------------------------------- */
-#nav{
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+  }
+  
+  /* -----------------------------nav start----------------------------------------- */
+  #nav{
     height:60px;
     width:100%;
     background-color:rgb(46,49,146) ;
@@ -113,6 +117,7 @@
     color:white;
     background-color:rgb(46,49,146) ;
     border:0px;
+    margin-top: 5px;
     }
     #div1>.h_logo>img{
     width:100%;
@@ -170,7 +175,8 @@
     display: block;
     } 
     .search>.dis{
-    border:0px;
+    border:1px solid white;
+    padding:0 1px;
     border-radius: 2px;
     height:70%;
     margin:auto;
@@ -179,6 +185,7 @@
     color:rgb(46,49,146) ;
     font-weight: bolder;
     font-size: 15px;  
+    
     }
     .search>.dis a{
     text-decoration:none;
@@ -350,17 +357,31 @@
     .menu2:hover .help{
     display: block;
     }
+   
     .signPop{
     width:250px;
-    height: 420px;
+    height: 440px;
     font-size: small;
     border-radius: 5px;
     background-color: white;
+    margin-left: -160px;
+    margin-top: -20px;
     display: none;
-    margin-left: -200px;
     text-align: justify;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+   .signPop .sig{
+     padding: 20px;
+     height:max-content;
+   }
+    
+   .signPop .sig button{
+     background-color:royalblue;
+     color: white;
+     border: 0;
+     border-radius: 3px;
+     padding: 3px;
+   }
     .signPop>div{
     margin-left: 25px;
     margin-top: 30px;
@@ -437,278 +458,346 @@
     .sbar:hover .btnInpt{
     display: block;
     }
+  
+#phone{
+    background-color: rgb(241,242,242);
+    padding-top: 20px;
+    margin-top: 50px;
+}
 
+#phone>.navBar{
+    display: flex;
+    width:95%;
+    margin: auto;
+    background-color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding:7px;
+    margin-bottom:8px;
+}
+#phone>.navBar>.left{
+    display: flex;
+    margin-top: 9px;
+}
+#phone>.navBar>.right{
+    display: flex;
+    margin-left: 7%;
+}
 
-    /* ------------------------------------------------------body start------------------------------------------------- */
-
-    #accessories {
-        margin: 70px 50px -15px;
-        display: flex;
-    }
-    #accessories > a {
-        text-decoration: none;
-        margin: 12px 5px;
-        color: rgb(96, 91, 91);
-        font-size: small;
-    }
-    #accessories > p {
-        font-size: small;
-    }
-    #accessories > a:hover{
-        text-decoration: underline;
-    }
-body{
-    background-color:#e8eaeb;
+#phone>.navBar>.right>.all>b{
+    text-underline-offset: 12px;
+    text-decoration: underline;
+}
+#phone>.navBar>.right>div{
+    margin:9px;
+}
+#phone>.navBar>.right>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 12px;
+}
+.bottom{
+    display: flex;
+}
+.bottom>.searched{
+    width:13%;
+    font-size: 14px;
+    margin-left: 34px;;
+}
+.bottom>.searched>div{
+    background-color: white;
+    margin-bottom: 18px;
     font-family: sans-serif;
 }
-#bag{
-    margin:0px 50px ; 
-    /* border: 1px solid red; */
-
-    width:90% 
+.ul{
+    padding-left: 20px;;
 }
-.mainBag {
+.bar{
+    border:1px solid rgb(207, 205, 205);
+    padding:8px 0px 8px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: rgb(242,242,242);
+    padding-left: 10px;
+    margin-bottom: 20px;  
+}
+.bar:hover{
+    cursor: pointer;
+}
+.barbottom{
+    padding-left: 10px;;
+    line-height: 22px;
+}
+.barbottom>.li{
+    border:none;
     background-color: white;
 }
-h2 > span {
+.barbottom>.li:hover{
     text-decoration: underline;
-    text-underline-offset: 8px;
+    cursor: pointer;
 }
-.mainBag > h1 {
-    background-color: #e8eaeb;
-    padding: 40px 0px 10px;
+.barbottom>.ul:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
-#bag > h2 {
-    margin:20px 5px;
-    font-weight: 600;
+.barbottom>button{
+    background-color: white;
+    border:none;
+    font-size: 14px;
 }
-/* #medical{
-    width:100%;
-    background-color:white;
-    border:1px solid red;
-    margin-top: -10px;
-    border:1px solid rgb(231, 222, 222)
-} */
-.flexmedical{
-    display:flex;
-    width:90%;
-    justify-content: space-around;
-    height:200px;
-    /* border:1px solid; */
-    padding:30px
+.barbottom>button:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
-.leftflexmedical{
-    width:12%;
-    height:100%;
-    border-right:1px solid red;
-    margin-right:10px;
-    border-right: 1px solid rgb(207, 198, 198);
+.lists{
+    margin-left: 10px;
+    width:880px;
+    font-family: sans-serif;
+    margin-top: -20px;
 }
-.rightflexmedical{
-    display:flex;
-    width:85%;
-    height:90%;
-    /* border:1px solid; */
+.lists>.listTop{
+    display: flex;
 }
-.rightflexmedical>div{
-    width:15%;
-    height: 230px;
-    /* border:1px solid; */
-    margin-right: 10px;
+.lists>.listTop>div{
+    width:30%;
+    background-color: white;
+    border-radius: 6px;
+    margin-left:5px;
+    margin-right: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.rightflexmedical>div:hover{
+.lists>.listTop>div>img{
+    padding-left: 45px;
+}
+.lists>.listTop>div>div{
+    background-color: rgb(246,246,246);
+    text-align: center;
+    font-size: 15px;
+    height:24px;
+    padding-top: 8px;
+}
+.lists>.listTop>div:hover{
+    transform: scale(1.16);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.lists #whole{
     
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    text-decoration: underline;
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    margin-top: 20px;
 }
-.mainBag > .selecttag002{
-    margin: 20px 550px;
-    padding:3px 6px;
-    width:100px;
-    background-color:rgb(52, 52, 209);
+.lists #whole>div{
+    
+    width:98%;
+    height:470px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.lists #whole>div:hover{
+    cursor: pointer;
+}
+.lists #whole>div>.imgeDiv{
+    width:100%;
+    height:250px;
+    padding-left: 17px;
+}
+.lists #whole>div>.imgeDiv>img{
+    width:85%;
+    height:100%;
+}
+.lists #whole>div>.name{
+    color:blue;
+    font-size: 14px;
+    height:29px;
+    text-align: center;
+}
+.lists #whole>div>.name:hover{
+    color:red;
+}
+.lists #whole>div>.price{
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    height:10px;
+}
+.lists #whole>div>.shopName{
+    font-size: 13px;
+    text-align: center;
+    height:10px;
+}
+.lists #whole>div>.place{
+    font-size: 11px;
+    color:gray;
+    height:10px;
+    text-align: center;
+}
+.lists #whole>div>.button{
+    background-color: rgb(4,126,116);
     color:white;
+    font-weight: 600;
+    font-size: 17px;
+    border:none;
+    padding:10px 30px 10px 30px;
+    margin-left: 26px;
     border-radius: 5px;
 }
-.rightflexmedical>div>p{
-     text-align:center;
-     font-size:13px;
-     color:grey;
+.lists #whole>div>.button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
 }
-.rightflexmedical>div>a{
-    color: black;
-    text-decoration: none;
-}
-.rightflexmedical>div>a > h4 {
-  width:90%;
-  font-weight:100;
-  text-align:center;
-}
-.rightflexmedical>div>h4 {
-    width:90%;
-    font-weight:100;
-    text-align:center;
-}
-.upper{
-          margin-top:-18px;
-}
-.productsdiv{
-    width:300px;
-    height:200px;
-    display:flex;
-}
-.productsdiv > div > h4 {
-    font-size: small;
-    margin: 30px 10px;
-}
-.productsdiv > div > p {
-    font-size: small;
-    margin: -20px 10px;
-}
-h1 > span {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
+
+
 /* --------------------------------------footer start--------------------------------------------- */
 
 #footer> .nav{
-    margin-top: 100px;
     display: flex;
+    margin-top: 50px;
     background-color: rgb(238,238,238);
     border: 1px solid white;
     color: rgb(34, 34, 34);
     height: 50px;
     justify-content: space-around;
     align-items: center;
-    }
-    #footer > .nav > div {
-    
+  }
+  #footer > .nav > div {
+  
     display: flex;
     width: 30%;
     margin: 0px 0px 0px 10px;
-    }
-    #footer > .nav >div >h1{
+  }
+  #footer > .nav >div >h1{
     color: rgb(94, 94, 211);
     font-weight: 50;
     margin-left: 50px;
-    }
-    #footer > .nav >div > h5 {
+  }
+  #footer > .nav >div > h5 {
     margin: 4px 10px;
     font-weight: 100;
-    }
-    #footer > .nav >div :nth-child(2) {
+  }
+  #footer > .nav >div :nth-child(2) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-    }
-    #footer > .nav >div :nth-child(3) {
+  }
+  #footer > .nav >div :nth-child(3) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-    }
-    #footer > .nav >div :nth-child(4) {
+  }
+  #footer > .nav >div :nth-child(4) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-    }
-    #footer > .nav >div :nth-child(6) {
+  }
+  #footer > .nav >div :nth-child(6) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(59,89,152);
-    }
-    #footer > .nav >div :nth-child(7) {
+  }
+  #footer > .nav >div :nth-child(7) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(85,172,238);
-    }
-    #footer > .nav >div :nth-child(8) {
+  }
+  #footer > .nav >div :nth-child(8) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(0,122,185);
-    }
-    #footer > .nav >div :nth-child(2):hover {
+  }
+  #footer > .nav >div :nth-child(2):hover {
     color: rgb(94, 92, 92);
     transition: all;
-    }
-    #footer > .nav >div :nth-child(3):hover {
+  }
+  #footer > .nav >div :nth-child(3):hover {
     color: rgb(94, 92, 92);
-    }
-    #footer > .nav >div :nth-child(4):hover {
+  }
+  #footer > .nav >div :nth-child(4):hover {
     color: rgb(94, 92, 92);
-    }
-    #footer > .nav >div :nth-child(6):hover {
+  }
+  #footer > .nav >div :nth-child(6):hover {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(94, 92, 92);
-    }
-    #footer > .nav >div :nth-child(7):hover {
+  }
+  #footer > .nav >div :nth-child(7):hover {
     color: rgb(94, 92, 92);
-    }
-    #footer > .nav >div :nth-child(8):hover {
+  }
+  #footer > .nav >div :nth-child(8):hover {
     color: rgb(94, 92, 92);
-    }
-    
-    
-    #footer > #lastfooter{
+  }
+  
+  
+  #footer > #lastfooter{
+    background-color:white;
     display:flex;
     position: absolute;
-    left: 180px;
-    margin: 20px 0 0 0;
+    left: 200px;
+    margin: 0px;
     color: rgb(101, 105, 106);
     }
     #footer > #lastfooter > ul {
-        list-style-type: none;
-        cursor: pointer;
+      list-style-type: none;
+      line-height: 25px;
+      cursor: pointer;
+  
     }
     #footer> #lastfooter>.main>li:hover{
-        color: blue;
+      color: blue;
     }
     #footer> #lastfooter>.first{
-        margin: 17px 0 0 40px;
+      margin: 0 0 0 80px;
     }
     #footer> #lastfooter>.first>li:hover{
-        color: blue;
+      color: blue;
     }
     #footer> #lastfooter>.second{
-        margin: -8px 0 0 40px;
+      margin: 0 0 0 80px;
     }
     #footer> #lastfooter>.second>li:hover{
-        color: blue;
+      color: blue;
     }
     #footer> #lastfooter>.third{
-        margin: -10px 0 0 40px;
+      margin: 0 0 0 80px;
     }
     #footer> #lastfooter>.third>li:hover{
-        color: blue;
+      color: blue;
     }
     #footer>#lastfooter> .fourth{
-        margin: -10px 0 0 40px;
+      margin: 0 0 0 80px;
     }
     #footer> #lastfooter>.fourth>li:hover{
-        color: blue;
+      color: blue;
     }
     #footer> #lastfooter>.fourth>p{
-        color:rgb(43, 42, 42);
-        font-size:22px;
-        cursor: text;
+      color:rgb(43, 42, 42);
+      font-size:22px;
+      cursor: text;
     }
     #footer> #lastfooter>.third>p,.second>p{
-        color:rgb(43, 42, 42);
-        font-size:22px;
+      color:rgb(43, 42, 42);
+      font-size:22px;
     }
     #footer> #lastfooter>.third>p:hover,.second>p:hover{
-        color: rgb(112, 112, 217);
+      color: rgb(112, 112, 217);
     }
-    #footer> #endpage {
-    height: 50px;
+  #footer> #endpage {
+    height: 20px;
+    padding-bottom: 30px;
     width: 100%;
-    margin-top: 160px;
-    }
-    #footer> #endpage > div>ul {
+    margin-top: 210px;
+  }
+  #footer> #endpage > div>ul {
     display: flex;
-    margin-left: -30px;
     justify-content: space-around;
     list-style-type: none;
     color: rgb(101, 105, 106);
     font-size: small;
-    }
-    
+  }
+  
