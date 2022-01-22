@@ -80,7 +80,7 @@ body {
     #div1>.h_logo>img{
     width:100%;
     }
-    #gsear{
+    /* #gsear{
     background-color:rgb(0,166,153) ;
     color:white;
     font-size:medium;
@@ -90,30 +90,30 @@ body {
     border:0px;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
-    }
-    #gsear>i{
+    } */
+    /* #gsear>i{
     color:rgb(240, 232, 232);
-    }
-    #gsear:hover{
+    } */
+    /* #gsear:hover{
     background-color:rgb(54, 124, 118);
-    }
-    .search>div>.micro{
+    } */
+    /* .search>div>.micro{
     width:40px;
     color:black;
-    }
-    .micro>i{
+    } */
+    /* .micro>i{
     color: blue;
     margin-top: 10px;
     position: relative;
-    }
-    .micro{
+    } */
+    /* .micro{
     background-color: white;
     text-align: center;
     position: relative;
     height:100%;
     width: 100%;
-    }
-    .micro>.down{
+    } */
+    /* .micro>.down{
     background-color: black;
     color: white;
     width:100px;
@@ -124,14 +124,14 @@ body {
     margin-top: 35px;
     margin-left: -65px;
     display:none;
-    }
-    .down>a{
+    } */
+    /* .down>a{
     text-decoration: none;
     color:white;
     }
     .micro:hover .down{
     display: block;
-    } 
+    }  */
     .search>.dis{
     border:0px;
     border-radius: 2px;
@@ -315,7 +315,7 @@ body {
     }
     .signPop{
     width:250px;
-    height: 420px;
+    height: 600px;
     font-size: small;
     border-radius: 5px;
     background-color: white;
@@ -324,12 +324,15 @@ body {
     text-align: justify;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+    #up #optSign{
+      margin-top: 5px;
+    }
     .signPop>div{
     margin-left: 25px;
     margin-top: 30px;
     }
     .signPop div .profile a i{
-    padding-right: 10px;
+    padding-right: 5px;
     color:grey;
     }
     .signPop .profile{
@@ -349,7 +352,7 @@ body {
       margin-left: 10px;
     }
     .signPop .profile1 a i{
-      margin-top: 15px;
+      margin-top: -10px;
       color:grey;
     }
     .signPop>div:nth-child(1){
@@ -409,38 +412,79 @@ body {
     margin-top: 2px;
     height: 300px;
   }
-  /* .search>div>button{
-  height:100%;
-  font-weight: bold;
-  width:20%;
-  text-align: center;
-  border:0px;
-  background-color: white;
-  justify-content: space-around;
-  } */
-/* 
+
     #feedback >.search{
-    height: 50%;
-    width:60%;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
+    height: 60%;
+    width:70%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35% 50%;
+    justify-content: space-around;
     margin:5px 210px;
-    border: 5px solid red;
+    text-align: center;
+    }
+    .search .sbar1{
+      margin-top: -50px;
+      width: 100%;
+      padding-top: 70px;
+      color:white;
+    }
+    .search .sbar1 p a{
+      font-weight: bold;
+      text-decoration: none;
+      color:white;
+    }
+    #loc .link1 button{
+      height: 100%;
+      font-size: large;
+      font-weight: bold;
+      color:white;
+      width:100%;
+      background-color: rgb(0,166,153);
+      border: 0;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+    #loc .link1 button:hover{
+      background-color: rgb(17, 102, 95);
+    }
+    
+    #loc .link1 button i{
+      padding-right: 10px;
+      color:white;
+    }
+    #loc .link1{
+      width:130px;
+
+    }
+   
+    #loc{
+      background-color: transparent;
+      display: flex;
+      padding-left: 120px;
+    }
+
+    #loc>.inpt{
+      width:50%;
+      height: 48px;
+      margin-left: -2px;
+      border:0px;
+      margin-top: 0.5px;
+    }
+    #loc >.link i{
+      padding-left: 25px;
     }
     #loc >.link  {
-      border: 3px solid red;
-      flex-grow: 1;
+      width:100px;
       display: inline-block;
-      /* background-color: black;
-    } */
+      background-color: rgb(226, 241, 226);
+    }
     #feedback>.search>.sbar>.inpt{
     width:500px;
     height:50px;
     border:0;
-    flex-grow: 1;
-    /* border: 3px solid red; */
+    border: 3px solid red;
     }
     #feedback > .search > .sbar> #loc > button {
         height: 50px;
