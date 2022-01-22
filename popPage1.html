@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="popPage1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <div class="B1">
         <div></div>
         <div>
+            <button onclick="window.location.href='phonePage.html'" type="button" class="close" data-dismiss="modal"> &times;</button>
             <div>
                 <h2 style="font-weight: lighter;">Adding a few details of your requirment can get you quick response from the supplier</h2>
             </div>
@@ -33,7 +44,54 @@
                     <p>Requirements Details</p>
                     <textarea name="" id="" cols="50" rows="5" placeholder="Additional dtails about your requirements..."></textarea>
                     <div>
-                        <input class="button" type="submit" value="Next">
+                        <input class="button" type="submit" value="Next" data-target="#mymodel" data-toggle="modal">
+                </input>
+                <div class="modal" id="mymodel">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                
+                                <div class="B2">
+                                    <div></div>
+                                    <div>
+                                        <div>
+                                            <h2 style="font-weight: lighter;">Please provide a few details to get quick response from the supplier</h2>
+                                            <button type="button" class="close" data-dismiss="modal"> &times;</button>
+                                        </div>
+                                        <div class="fm">
+                                            <form action="">
+                                                <input class="i1" type="text" placeholder="Company/Business Name"><a href=""><i class="far fa-question-circle"></i></a>
+                                                <div class="hov">
+                                                    <ul>
+                                                        <h4>Make sure your company name:</h4>
+                                                        <li>is longer than 4 characters</li> 
+                                                        <li>is not the name of contact person</li>
+                                                        <li>is not the name of product you sell</li>
+                                                        <li>is not generic e.g. 'textile','SEO services', 'travel agency'</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="int">
+                                                    <input class="i2" type="text" placeholder="GST Number"> 
+                                                </div>
+                                                
+                                                <div class="sub">
+                                                    <div>
+                                                        <a href="popPage1.html">  <i class="fas fa-chevron-circle-left fa-3x"></i></a>
+                                                    </div>
+                                                    <button onclick="window.location.href='thank.html'" type="submit">SUBMIT</button>
+                                                </div>
+                                            </form>
+                                            <div class="bot">
+                                                <h3>Your Contact Information :</h3>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     </div>
                 </form>
                 <div class="bot">
@@ -53,6 +111,22 @@
         
         localStorage.setItem("quantity",JSON.stringify(qnty));
 
-        window.location.href="pop2.html";
-    }
+        // window.location.href="pop2.html";
+    };
+    document.querySelector("form").addEventListener("submit",thankyou)
+    var inp=[]
+    function thankyou(event){
+        event.preventDefault()
+        var inpt1=document.querySelector(".B2 .i1").value;
+        var inpt2=document.querySelector(".B2 .i2").value;
+
+        var objInpt={
+            input1:inpt1,
+            input2:inpt2
+        }
+        inp.push(objInpt);
+        localStorage.setItem("orderInput",JSON.stringify(objInpt))
+        // window.location.href="thank.html";
+    };
+
 </script>

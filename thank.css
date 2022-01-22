@@ -12,7 +12,6 @@
 /* .b1 div{
     border:1px solid red;
 } */
-
 .d1{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -29,6 +28,16 @@
 }
 .d1>div:nth-child(1) i{
     color:rgb(0,166,153);
+    width:770px;
+}
+.b1>.d1>div>button{
+   font-size: 25px;
+    border:none;
+    height:30px;
+    background-color: aliceblue;
+}
+.b1>.d1>div>button:hover{
+    cursor: pointer;
 }
 .d1>div:nth-child(2)>button {
     width:fit-content;

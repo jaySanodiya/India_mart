@@ -32,8 +32,9 @@
 .B1>div:nth-child(2) .button:hover{
     background-color: green;
 }
+
 .B2{
-    width:60%;
+    width: 60%;
     height:max-content;
     display: grid;
     height: 610px;
@@ -99,7 +100,7 @@
     display: block;
     margin-top: 20px;
 }
-.B2>div:nth-child(2) .button:hover{
+.B2>div:nth-child(2).button:hover{
     background-color: green;
 }
 .qnty input{
@@ -139,4 +140,14 @@ textarea{
 }
 .B2 .sub>i{
     margin-bottom: 0px;
+}
+.sub>button{
+    background-color:rgb(0,166,153) ;
+    border:none;
+    color:white;
+    padding:10px 26px 10px 26px;
+}
+.sub>button:hover{
+    background-color: green;
+    cursor: pointer;
 }
