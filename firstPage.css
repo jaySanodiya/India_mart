@@ -361,7 +361,7 @@ body {
     .signPop{
     width:250px;
     height: 600px;
-    height: 480px;
+    height: 500px;
 
     font-size: small;
     border-radius: 5px;
@@ -385,6 +385,16 @@ body {
    }
    .signPop .sig1 a{
      text-decoration: none;
+     font-size: 13px;
+     margin-top: 12px;
+     margin-left: 3px;
+   }
+   .signPop .sig1 {
+     display: flex;
+   }
+   .signPop .sig1 p{
+     font-size: 13px;
+     color: rgb(136, 132, 132);
    }
     .signPop .sig1 a:hover{
       text-decoration: underline;
