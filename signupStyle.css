@@ -1,10 +1,11 @@
 body{
-   
+   background-image: url("bgImg.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #container{
+    background-color: white;
     width:36%;
     margin-top: 12%;
     border:2px solid rgb(218, 214, 214);

@@ -1,0 +1,2441 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse input{
+    display: none;
+}
+.collapse label i{
+    margin-left: 510px;
+}
+.collapse label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse .collapse-text p a{
+    text-decoration: none;
+ }
+
+.collapse-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse input:checked ~ .collapse-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+
+
+
+
+
+.collapse1{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse1 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse1 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse1 .collapse1-text p a{
+    text-decoration: none;
+ }
+
+.collapse1-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse1 input:checked ~ .collapse1-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse1 input{
+    display: none;
+}
+.collapse1 label i{
+    margin-left: 563px;
+}
+
+
+
+
+
+
+
+.collapse2{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse2 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse2 .collapse2-text p a{
+   text-decoration: none;
+}
+.collapse2 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+
+.collapse2-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse2 input:checked ~ .collapse2-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse2 input{
+    display: none;
+}
+.collapse2 label i{
+    margin-left: 475px;
+}
+.collapse2 label i{
+    margin-left: 680px;
+}
+
+
+
+
+
+
+
+.collapse3{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse3 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse3 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse3 .collapse3-text p a{
+    text-decoration: none;
+ }
+.collapse3-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse3 input:checked ~ .collapse3-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse3 input{
+    display: none;
+}
+.collapse3 label i{
+    margin-left: 435px;
+}
+.collapse3 label i{
+    margin-left: 566px;
+}
+
+
+
+
+
+
+.collapse4{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse4 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse4 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse4 .collapse4-text p a{
+    text-decoration: none;
+ }
+.collapse4-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse4 input:checked ~ .collapse4-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse4 input{
+    display: none;
+}
+.collapse4 label i{
+    margin-left: 570px;
+}
+
+
+
+
+
+
+.collapse5{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse5 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse5 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse5 .collapse5-text p a{
+    text-decoration: none;
+ }
+.collapse5-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse5 input:checked ~ .collapse5-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse5 input{
+    display: none;
+}
+.collapse5 label i{
+    margin-left: 575px;
+}
+
+
+
+
+
+
+
+.collapse6{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse6 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse6 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse6 .collapse6-text p a{
+    text-decoration: none;
+ }
+.collapse6-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse6 input:checked ~ .collapse6-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse6 input{
+    display: none;
+}
+.collapse6 label i{
+    margin-left: 480px;
+}
+.collapse6 label i{
+    margin-left: 675px;
+}
+
+
+
+
+
+
+
+.collapse7{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse7 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse7 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse7 .collapse7-text p a{
+    text-decoration: none;
+ }
+.collapse7-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse7 input:checked ~ .collapse7-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse7 input{
+    display: none;
+}
+.collapse7 label i{
+    margin-left: 578px;
+}
+
+
+
+
+
+
+
+
+.collapse8{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse8 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse8 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse8 .collapse8-text p a{
+    text-decoration: none;
+ }
+.collapse8-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse8 input:checked ~ .collapse8-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse8 input{
+    display: none;
+}
+.collapse8 label i{
+    margin-left: 480px;
+}
+.collapse8 label i{
+    margin-left: 670px;
+}
+
+
+
+
+
+.collapse9{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse9 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse9 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse9 .collapse7-text p a{
+    text-decoration: none;
+ }
+.collapse9-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse9 input:checked ~ .collapse9-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse9 input{
+    display: none;
+}
+.collapse9 label i{
+    margin-left: 563px;
+}
+
+
+
+
+
+
+
+
+.collapse10{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse10 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse10 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse10 .collapse10-text p a{
+    text-decoration: none;
+ }
+.collapse10-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse10 input:checked ~ .collapse10-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse10 input{
+    display: none;
+}
+.collapse10 label i{
+    margin-left: 622px;
+}
+
+
+
+
+
+
+
+.collapse11{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse11 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse11 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse11 .collapse11-text p a{
+    text-decoration: none;
+ }
+.collapse11-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse11 input:checked ~ .collapse11-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse11 input{
+    display: none;
+}
+.collapse11 label i{
+    margin-left: 690px;
+}
+
+
+
+
+
+
+.collapse12{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse12 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse12 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse12 .collapse12-text p a{
+    text-decoration: none;
+ }
+.collapse12-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse12 input:checked ~ .collapse12-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse12 input{
+    display: none;
+}
+.collapse12 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse13{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse13 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse13 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse13 .collapse13-text p a{
+    text-decoration: none;
+ }
+.collapse13-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse13 input:checked ~ .collapse13-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse13 input{
+    display: none;
+}
+.collapse13 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+.collapse14{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse14 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse14 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse14 .collapse14-text p a{
+    text-decoration: none;
+ }
+.collapse14-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse14 input:checked ~ .collapse14-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse14 input{
+    display: none;
+}
+.collapse14 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+.collapse15{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse15 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse15 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse15 .collapse15-text p a{
+    text-decoration: none;
+ }
+.collapse15-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse15 input:checked ~ .collapse15-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse15 input{
+    display: none;
+}
+.collapse15 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse16{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse16 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse16 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse16 .collapse16-text p a{
+    text-decoration: none;
+ }
+.collapse16-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse16 input:checked ~ .collapse16-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse16 input{
+    display: none;
+}
+.collapse16 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse17{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse17 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse17 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse17 .collapse17-text p a{
+    text-decoration: none;
+ }
+.collapse17-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse17 input:checked ~ .collapse17-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse17 input{
+    display: none;
+}
+.collapse17 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse18{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse18 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse18 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse18 .collapse18-text p a{
+    text-decoration: none;
+ }
+.collapse18-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse18 input:checked ~ .collapse18-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse18 input{
+    display: none;
+}
+.collapse18 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse19{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse19 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse19 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse19 .collapse19-text p a{
+    text-decoration: none;
+ }
+.collapse19-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse19 input:checked ~ .collapse19-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse19 input{
+    display: none;
+}
+.collapse19 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+.collapse20{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse20 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse20 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse20 .collapse20-text p a{
+    text-decoration: none;
+ }
+.collapse20-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse20 input:checked ~ .collapse20-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse20 input{
+    display: none;
+}
+.collapse20 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse21{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse21 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse21 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse21 .collapse21-text p a{
+    text-decoration: none;
+ }
+.collapse21-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse21 input:checked ~ .collapse21-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse21 input{
+    display: none;
+}
+.collapse21 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse22{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse22 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse22 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse22 .collapse22-text p a{
+    text-decoration: none;
+ }
+.collapse22-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse22 input:checked ~ .collapse22-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse22 input{
+    display: none;
+}
+.collapse22 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse23{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse23 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse23 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse23 .collapse23-text p a{
+    text-decoration: none;
+ }
+.collapse23-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse23 input:checked ~ .collapse23-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse23 input{
+    display: none;
+}
+.collapse23 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+.collapse24{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse24 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse24 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse24 .collapse24-text p a{
+    text-decoration: none;
+ }
+.collapse24-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse24 input:checked ~ .collapse24-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse24 input{
+    display: none;
+}
+.collapse24 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse25{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse25 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse25 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse25 .collapse25-text p a{
+    text-decoration: none;
+ }
+.collapse25-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse25 input:checked ~ .collapse25-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse25 input{
+    display: none;
+}
+.collapse25 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse26{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse26 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse26 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse26 .collapse26-text p a{
+    text-decoration: none;
+ }
+.collapse26-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse26 input:checked ~ .collapse26-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse26 input{
+    display: none;
+}
+.collapse26 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse27{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse27 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse27 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse27 .collapse27-text p a{
+    text-decoration: none;
+ }
+.collapse27-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse27 input:checked ~ .collapse27-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse27 input{
+    display: none;
+}
+.collapse27 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse28{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse28 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse28 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse28 .collapse28-text p a{
+    text-decoration: none;
+ }
+.collapse28-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse28 input:checked ~ .collapse28-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse28 input{
+    display: none;
+}
+.collapse28 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+.collapse30{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse30 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse30 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse30 .collapse30-text p a{
+    text-decoration: none;
+ }
+.collapse30-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse30 input:checked ~ .collapse30-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse30 input{
+    display: none;
+}
+.collapse30 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse29{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse29 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse29 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse29 .collapse29-text p a{
+    text-decoration: none;
+ }
+.collapse29-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse29 input:checked ~ .collapse29-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse29 input{
+    display: none;
+}
+.collapse29 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+.collapse31{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse31 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse31 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse31 .collapse31-text p a{
+    text-decoration: none;
+ }
+.collapse31-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse31 input:checked ~ .collapse31-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse31 input{
+    display: none;
+}
+.collapse31 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse32{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse32 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse32 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse32 .collapse32-text p a{
+    text-decoration: none;
+ }
+.collapse32-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse32 input:checked ~ .collapse32-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse32 input{
+    display: none;
+}
+.collapse32 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse33{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse33 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse33 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse33 .collapse33-text p a{
+    text-decoration: none;
+ }
+.collapse33-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse33 input:checked ~ .collapse33-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse33 input{
+    display: none;
+}
+.collapse33 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+.collapse34{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse34 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse34 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse34 .collapse34-text p a{
+    text-decoration: none;
+ }
+.collapse34-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse34 input:checked ~ .collapse34-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse34 input{
+    display: none;
+}
+.collapse34 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+.collapse35{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse35 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse35 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse35 .collapse35-text p a{
+    text-decoration: none;
+ }
+.collapse35-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse35 input:checked ~ .collapse35-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse35 input{
+    display: none;
+}
+.collapse35 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+.collapse36{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse36 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse36 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse36 .collapse36-text p a{
+    text-decoration: none;
+ }
+.collapse36-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse36 input:checked ~ .collapse36-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse36 input{
+    display: none;
+}
+.collapse236 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+.collapse37{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse37 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse37 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse37 .collapse37-text p a{
+    text-decoration: none;
+ }
+.collapse37-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse37 input:checked ~ .collapse37-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse37 input{
+    display: none;
+}
+.collapse37 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+.collapse38{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse38 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse38 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse38 .collapse38-text p a{
+    text-decoration: none;
+ }
+.collapse38-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse38 input:checked ~ .collapse38-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse38 input{
+    display: none;
+}
+.collapse38 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+.collapse39{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse39 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse39 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse39 .collapse39-text p a{
+    text-decoration: none;
+ }
+.collapse39-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse39 input:checked ~ .collapse39-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse39 input{
+    display: none;
+}
+.collapse39 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.collapse21{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse21 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse21 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse21 .collapse21-text p a{
+    text-decoration: none;
+ }
+.collapse21-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse21 input:checked ~ .collapse21-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse21 input{
+    display: none;
+}
+.collapse21 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}

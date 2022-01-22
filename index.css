@@ -317,7 +317,7 @@ body {
   background-color: white;
   text-align: justify;
   display: none;
-  margin-left: -50px;
+  margin-left: -150px;
   }
   .help p:hover{
   background-color:rgb(231, 231, 231);
@@ -369,18 +369,34 @@ body {
   text-align: justify;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
- .signPop .sig{
-   padding: 20px;
-   height:max-content;
- }
+  .signPop .sig1{
+    display: grid;
+    grid-gap: 15px;
+    padding-bottom: 29px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35% 25% 30%;
+    justify-content: space-between;
+  }
+  .signPop .sig1 div{
+  }
+  .signPop .sig1 p{
+    font-size: medium;
+  }
+  .signPop .sig1 .ico{
+    display: flex;
+  }
+  .signPop .sig1 .ico i{
+    color: rgb(83, 207, 83);
+    font-size:medium;
+    padding-left: 10px;
+  }
+  .signPop .sig1 a{
+    text-decoration: none;
+  }
+  .signPop .sig1 a:hover{
+    text-decoration: underline;
+  }
   
- .signPop .sig button{
-   background-color:royalblue;
-   color: white;
-   border: 0;
-   border-radius: 3px;
-   padding: 3px;
- }
   .signPop>div{
   margin-left: 25px;
   margin-top: 30px;
