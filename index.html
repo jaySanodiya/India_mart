@@ -183,8 +183,8 @@
 
                 <div class="signPop">
                     <div class="sig1">
-                     <div style="font-size: medium;"><p>Poovendharan</p></div>
-                     <div class="ico"><p>8880008888</p><i class="fas fa-check-circle">Verified</i></div>
+                     <div style="font-size: medium;"><p id="UserName2"></p></div>
+                     <div class="ico"><p id="UserNumb"></p><i class="fas fa-check-circle">Verified</i></div>
                      <div ><a style="font-size: 12px;" href=""><i class="fas fa-pencil-alt"></i>View Profile</a></div>     
                            
                     </div>
@@ -227,7 +227,7 @@
     <div class="feedBackBox2">
         <h1>Strengthen Your Profile</h1>
         <img src="https://my.imimg.com/gifs_new/spiral-border1.png" alt="">
-        <p>Welcome <span style="font-size: large;">Jay</span>,</p>
+        <p>Welcome <span style="font-size: large;" id="UserName3"></span>,</p>
         <p>Continue to update your business profile</p>
         <div class="feedBackBoxEntery">
             <div class="feedBackBox2Input">
@@ -2818,6 +2818,12 @@
             console.log(elem.UsrName);
             var z = document.querySelector("#UserName1");
        z.textContent=elem.UsrName;
+       var p = document.querySelector("#UserName2");
+       p.textContent=elem.UsrName;
+       var q = document.querySelector("#UserName3");
+       q.textContent=elem.UsrName;
+       var r = document.querySelector("#UserNumb");
+       r.textContent=elem.UsrNum;
     }
 
 </script>
