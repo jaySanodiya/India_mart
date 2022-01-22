@@ -1,0 +1,113 @@
+#helpB1{
+    height:max-content;
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 50% 25%;
+    grid-template-rows: max-content;
+    justify-content: center;
+}
+#helpB1>div:nth-child(1){
+   padding:0 5px;
+}
+#helpB1>div:nth-child(2){
+    margin-right: 60px;
+}
+#helpB1>div:nth-child(2)>div{
+    height:max-content;
+    padding: 10px 0 0 10px;
+    background-color: rgb(245,248,250);
+}
+#helpB2{
+    height:max-content;
+    display: grid;
+    grid-template-columns: 50% 25%;
+    grid-template-rows: max-content;
+    justify-content: center;
+
+}
+#helpB2>div:nth-child(1){
+   padding:0 5px;
+ }
+ #helpB2>div:nth-child(2){
+    margin-right: 60px;
+ }
+ #helpB2>div:nth-child(2)>div{
+    padding:10px 0 10px 10px;
+    
+     background-color: rgb(245,248,250);
+ }
+ul li{
+    list-style-type: none;
+    margin:8px 0px;
+}
+ul li>a{
+    text-decoration: none;
+    color:grey;
+    font-size: 15px;
+}
+.helpBottom{
+    height:350px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 200px 200px 300px 250px;
+    background-color: rgb(245,248,250);
+    padding:40px 0 20px 200px;
+}
+.helpBottom>div:nth-child(1){
+    font-size: small;
+    padding:10px;
+}
+.helpBottom>div:nth-child(2){
+    font-size: small;
+    padding:10px;
+}
+.helpBottom>div:nth-child(3){
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: -40px;
+}
+.helpBottom>div:nth-child(4){
+    margin:200px 0 0 40px;
+}
+
+.helpBottom>div>p>a{
+    text-decoration: none;
+    color:grey;
+}
+.helpBottom>div>p>a:hover{
+    text-decoration: underline;
+}
+
+.contactHelp>div{
+    background-color: rgb(46,49,146);
+    color:white;
+    width:80%;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    padding:5px;
+}
+.contactHelp>div>p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#chatBox{
+    padding: 10px;
+}
+#chatBox>a>img{
+    width:50%;
+    margin-left: 50px;
+    background-color: rgb(245,248,250);
+
+
+}
+
+.contactHelp>div:nth-child(1) div{
+    width:max-content;
+    height: max-content;
+    margin-left: 180px;
+}
+.contactHelp i{
+    color: greenyellow;
+}
