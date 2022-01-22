@@ -1,0 +1,729 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse input{
+    display: none;
+}
+.collapse label i{
+    margin-left: 550px;
+}
+.collapse label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse .collapse-text p a{
+    text-decoration: none;
+ }
+
+.collapse-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse input:checked ~ .collapse-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+
+
+
+
+
+.collapse1{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse1 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse1 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse1 .collapse1-text p a{
+    text-decoration: none;
+ }
+
+.collapse1-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse1 input:checked ~ .collapse1-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse1 input{
+    display: none;
+}
+.collapse1 label i{
+    margin-left: 550px;
+}
+
+
+
+
+
+
+
+.collapse2{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse2 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse2 .collapse2-text p a{
+   text-decoration: none;
+}
+.collapse2 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+
+.collapse2-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse2 input:checked ~ .collapse2-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse2 input{
+    display: none;
+}
+.collapse2 label i{
+    margin-left: 475px;
+}
+.collapse2 label i{
+    margin-left: 535px;
+}
+
+
+
+
+
+
+
+.collapse3{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse3 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse3 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse3 .collapse3-text p a{
+    text-decoration: none;
+ }
+.collapse3-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse3 input:checked ~ .collapse3-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse3 input{
+    display: none;
+}
+.collapse3 label i{
+    margin-left: 435px;
+}
+.collapse3 label i{
+    margin-left: 495px;
+}
+
+
+
+
+
+
+.collapse4{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse4 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse4 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse4 .collapse4-text p a{
+    text-decoration: none;
+ }
+.collapse4-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse4 input:checked ~ .collapse4-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse4 input{
+    display: none;
+}
+.collapse4 label i{
+    margin-left: 510px;
+}
+
+
+
+
+
+
+.collapse5{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse5 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse5 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse5 .collapse5-text p a{
+    text-decoration: none;
+ }
+.collapse5-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse5 input:checked ~ .collapse5-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse5 input{
+    display: none;
+}
+.collapse5 label i{
+    margin-left: 495px;
+}
+
+
+
+
+
+
+
+.collapse6{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse6 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse6 label::after{
+    content:"";
+    position: absolute;
+    right:5px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse6 .collapse6-text p a{
+    text-decoration: none;
+ }
+.collapse6-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse6 input:checked ~ .collapse6-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse6 input{
+    display: none;
+}
+.collapse6 label i{
+    margin-left: 480px;
+}
+.collapse6 label i{
+    margin-left: 525px;
+}
+
+
+
+
+
+
+
+.collapse7{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse7 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse7 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse7 .collapse7-text p a{
+    text-decoration: none;
+ }
+.collapse7-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse7 input:checked ~ .collapse7-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse7 input{
+    display: none;
+}
+.collapse7 label i{
+    margin-left: 510px;
+}
+
+
+
+
+
+
+
+
+.collapse8{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse8 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse8 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse8 .collapse8-text p a{
+    text-decoration: none;
+ }
+.collapse8-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse8 input:checked ~ .collapse8-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse8 input{
+    display: none;
+}
+.collapse8 label i{
+    margin-left: 480px;
+}
+.collapse8 label i{
+    margin-left: 643px;
+}
+
+
+
+
+
+.collapse9{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse9 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse9 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse9 .collapse7-text p a{
+    text-decoration: none;
+ }
+.collapse9-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse9 input:checked ~ .collapse9-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse9 input{
+    display: none;
+}
+.collapse9 label i{
+    margin-left: 532px;
+}
+
+
+
+
+
+
+
+
+.collapse10{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse10 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse10 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse10 .collapse10-text p a{
+    text-decoration: none;
+ }
+.collapse10-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse10 input:checked ~ .collapse10-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse10 input{
+    display: none;
+}
+.collapse10 label i{
+    margin-left: 612px;
+}
+
+
+
+
+
+
+
+.collapse11{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse11 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse11 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse11 .collapse11-text p a{
+    text-decoration: none;
+ }
+.collapse11-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse11 input:checked ~ .collapse11-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse11 input{
+    display: none;
+}
+.collapse11 label i{
+    margin-left: 690px;
+}
+
+
+
+
+
+
+.collapse12{
+    width:100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapse12 label{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    cursor:pointer;
+    z-index: 1;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.collapse12 label::after{
+    content:"";
+    position: absolute;
+    right:15px;
+    top:20px;
+    width:18px;
+    height:18px;
+}
+.collapse12 .collapse10-text p a{
+    text-decoration: none;
+ }
+.collapse12-text{
+    max-height: 1px;
+    overflow:hidden;
+    border: 4px;
+    line-height: 1.4;
+    position: relative;
+    top:-100%;
+    opacity: 0.5;
+}
+.collapse12 input:checked ~ .collapse12-text{
+    max-height: 500px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 1;
+    top:0;
+}
+.collapse12 input{
+    display: none;
+}
+.collapse12 label i{
+    margin-left: 690px;
+}
+p a i{
+    padding:0 5px;
+
+}
+a i{
+    padding: 0 5px;
+}
