@@ -30,13 +30,7 @@
     color:rgb(0,166,153);
     width:770px;
 }
-.b1>.d1>div>button{
-   font-size: 25px;
-    border:none;
-    height:30px;
-    background-color: aliceblue;
-}
-.b1>.d1>div>button:hover{
+.b1>.d1>div>span>button:hover{
     cursor: pointer;
 }
 .d1>div:nth-child(2)>button {
