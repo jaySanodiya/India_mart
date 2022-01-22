@@ -32,6 +32,46 @@ body {
     display: block;
     text-align: center;
     }
+    #nav > #div1 > .search{
+    width:80%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #nav > #div1>.search>div{
+    height: 75%;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px 15px;
+    }
+    #nav > #div1>.search>div>input{
+    width:60%;
+    height:100%;
+    border:0;
+    }
+    #nav > #div1>.search>.sbar>#loc>button {
+        height: 36px;
+    }
+    #nav > #div1>.search>div>input:focus{
+        outline: none;
+    }
+    #nav > #div1>.search>div>button>i{
+    margin-left:0px;
+    
+    }
+    dropdown
+    .search>div>button{
+    height:100%;
+    font-weight: bold;
+    width:20%;
+    text-align: center;
+    border:0px;
+    background-color: white;
+    justify-content: space-around;
+    }
     .h_logo>a>div{
     height:100%;
     margin: -5px -50px 0px 10px;
@@ -76,6 +116,7 @@ body {
     color:white;
     background-color:rgb(46,49,146) ;
     border:0px;
+    margin-top: 5px;
     }
     #div1>.h_logo>img{
     width:100%;
@@ -133,7 +174,8 @@ body {
     display: block;
     } 
     .search>.dis{
-    border:0px;
+    border:1px solid white;
+    padding:0 1px;
     border-radius: 2px;
     height:70%;
     margin:auto;
@@ -142,6 +184,7 @@ body {
     color:rgb(46,49,146) ;
     font-weight: bolder;
     font-size: 15px;  
+    
     }
     .search>.dis a{
     text-decoration:none;
@@ -313,17 +356,31 @@ body {
     .menu2:hover .help{
     display: block;
     }
+   
     .signPop{
     width:250px;
-    height: 420px;
+    height: 440px;
     font-size: small;
     border-radius: 5px;
     background-color: white;
+    margin-left: -160px;
+    margin-top: -20px;
     display: none;
-    margin-left: -200px;
     text-align: justify;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+   .signPop .sig{
+     padding: 20px;
+     height:max-content;
+   }
+    
+   .signPop .sig button{
+     background-color:royalblue;
+     color: white;
+     border: 0;
+     border-radius: 3px;
+     padding: 3px;
+   }
     .signPop>div{
     margin-left: 25px;
     margin-top: 30px;
