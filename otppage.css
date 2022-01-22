@@ -69,6 +69,6 @@ body>#otpfile>.top{
     margin-top: 4%;
 }
 #otpfile>.bottom>div>.resend:hover{
-    color:red;
+    color:rgb(236, 2, 2);
     cursor: pointer;
 }
