@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="otppage.css">
+</head>
+<body>
+    <div id="otpfile">
+        <div class="top">
+            <b>Verify Your Mobile Number</b>
+            <button onclick="window.location.href='signinPage.html'" type="button" class="close"> &times;</button>
+        </div>
+        <div class="bottom">
+            <div>
+                <p class="first">Get Connected to Verified Sellers</p>
+            </div>
+            <div>
+                <p>Enter the 4 digit One Time Password(OTP) sent</p>
+                <p>to your Mobile Number<span id="number"><b>#</b></span>via SMS</p>
+            </div>
+            <div>
+                <i class="fa-light fa-laptop-arrow-down"></i>
+                <input class="otpNum" type="number" placeholder="Enter OTP">
+                <input class="submitOtp" type="submit">
+            </div>
+            <div>
+                <span class="did">Did not receive OTP?</span>
+                <span class="resend">Resend</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+<script>
+    var a=document.querySelector(".submitOtp");
+    a.addEventListener("click",function(){
+           window.location.href="index.html";
+    })
+</script>
