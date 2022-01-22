@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popPage2.css">
+    <script src="https://kit.fontawesome.com/c4e5527343.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="B2">
+        <div></div>
+        <div>
+            <div>
+                <h2 style="font-weight: lighter;">Please provide a few details to get quick response from the supplier</h2>
+            </div>
+            <div class="fm">
+                <form action="">
+                    <input class="i1" type="text" placeholder="Company/Business Name"><a href=""><i class="far fa-question-circle"></i></a>
+                    <div class="hov">
+                        <ul>
+                            <h4>Make sure your company name:</h4>
+                            <li>is longer than 4 characters</li> 
+                            <li>is not the name of contact person</li>
+                            <li>is not the name of product you sell</li>
+                            <li>is not generic e.g. 'textile','SEO services', 'travel agency'</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="int">
+                        <input class="i2" type="text" placeholder="GST Number"> 
+                    </div>
+                    
+                    <div class="sub">
+                        <div>
+                            <a href="popPage1Sheet.html">  <i class="fas fa-chevron-circle-left fa-3x"></i></a>
+                        </div>
+                        <input class="button" type="submit" value="SUBMIT">
+                    </div>
+                </form>
+                <div class="bot">
+                    <h3>Your Contact Information :</h3>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",thankyou)
+    var inp=[]
+    function thankyou(event){
+        event.preventDefault()
+        var inpt1=document.querySelector(".B2 .i1").value;
+        var inpt2=document.querySelector(".B2 .i2").value;
+
+        var objInpt={
+            input1:inpt1,
+            input2:inpt2
+        }
+        inp.push(objInpt);
+        localStorage.setItem("orderInput",JSON.stringify(objInpt))
+        window.location.href="thank.html";
+    }
+</script>

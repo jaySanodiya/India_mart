@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+    <div id="phone">
+        <div class="navBar">
+            <div class="left">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>Location</div>
+                <div><input type="text" placeholder="EnterCity"></div>
+                <div><i class="fa-light fa-location-crosshairs"></i>Near me</div>
+            </div>
+            <div class="right">
+                <div class="all"><b>All India</b></div>
+                <div>Delhi</div>
+                <div>Mumbai</div>
+                <div>Hyderabad</div>
+                <div>Chennai</div>
+                <div>Kolkata</div>
+                <div>Bengaluru</div>
+                <div>Pune</div>
+                <div>Jaipur</div>
+                <div>Ahemdabad</div>
+                <div>Srinagar</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="searched">
+                <div>
+                    <div class="bar">Related Category</div>
+                    <div class="barbottom">
+                         <div class="li">Bed Sheets</div>
+                             <div class="ul">Cotton Bed Sheets</div>
+                             <div class="ul">Plane Bed Sheets</div>
+                             <div class="ul">Non Woven Bed Sheet</div>
+                             <div class="ul">Massage Bed Sheet</div>
+                         <div class="li">Hospital Bed Sheets</div>
+                         <div class="li">Surgical Draps</div>
+                         <div class="li">Baby Sheet</div>
+                         <div class="li">Disposal Pillow Cover</div>
+                         <div class="li">Spa Disposables</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bar">Business Type</div>
+                    <div class="barbottom">
+                        <div class="li">Manufacturer</div>
+                        <div class="li">Exporter</div>
+                        <div class="li">Wholesaler</div>
+                        <div class="li">Retailer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lists">
+                <div><b><h3>What type of Phone you are Looking for?</h3></b></div>
+                <div class="listTop">
+                    <div><img src="https://4.imimg.com/data4/NM/TF/GLADMIN-5190/mobile-phones-125x125.jpg">
+                        <div>Mobile Phones</div>
+                    </div>
+                    <div><img src="https://3.imimg.com/data3/YJ/OS/GLADMIN-35328/pocket-pc-phone-125x125.jpg">
+                        <div>Pocket PC Phones</div>
+                    </div>
+                    <div><img src="https://4.imimg.com/data4/VC/MS/GLADMIN-180331/used-mobile-phones-125x125.jpg">
+                        <div>Used Mobile Phones</div>
+                    </div>
+                    <div><img src="https://3.imimg.com/data3/OS/AB/GLADMIN-53262/touch-screen-mobile-125x125.jpg">
+                        <div>Touch Screen Mobile</div>
+                    </div>
+                </div>
+                <div id="whole"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+
+var medical=[
+
+        {
+            image:"https://5.imimg.com/data5/LD/BV/MY-6946967/disposable-bed-sheet-250x250.jpg",
+            name:"White Spa & Beauty Parlor Bed Sheet, GSM: 16 to 60",
+            price:"₹ 6",
+            shopName:"Kwalitex Healthcare Private Limited",
+            place:"Thane West, Thane",
+            mobile:"Call 07942538850"
+        
+        },
+        {
+            image:"https://4.imimg.com/data4/LD/JP/MY-110659/spa-bedding-sheets-250x250.jpg",
+            name:"Mixed Colors Used Mobile Phones",
+            price:"₹22",
+            shopName:"Dispowear Sterite Company",
+            place:"Chanakya Place, New Delhi",
+            mobile:"Call 08049591667",
+            brand:"Mixed"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/5/LP/PE/WD/3393748/disposable-bed-sheet-250x250.jpg",
+            name:"Blue Disposable Bed Sheet",
+            price:"920",
+            shopName:"The Total Health Care",
+            place:"Chandni Chowk, Delhi",
+            mobile:"Call 08048879047"
+        
+        },
+        {
+            image:"https://5.imimg.com/data5/IV/DQ/VQ/SELLER-22730753/hospital-bedsheets-250x250.jpg",
+            name:"Samsung Second Hand Bulk Mobiles., Memory Size: 32GB",
+            price:"₹260",
+            shopName:"BedCoouture",
+            place:"Bengaluru",
+            mobile:"Call 08045911725"
+            
+        },
+        {
+            image:"https://4.imimg.com/data4/FE/NH/MY-4632621/disposable-sleeper-sheet-250x250.jpg",
+            name:"Disposable Slipper Sheet, For Bathroom Slipper",
+            price:"₹ 12",
+            shopName:"Sumit Footcare",
+            place:"Sector 63, Noida",
+            mobile:"Call 08048006849"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/NC/YD/OM/SELLER-696143/disposable-sheet-250x250.png",
+            name:"Bellcross White Disposable sheets",
+            price:"Ask Price",
+            shopName:"Bellcross Industries Private Limited",
+            place:"Badarpur, New Delhi",
+            mobile:"Call 08048112025"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/HD/XP/KV/SELLER-338981/disposable-bed-sheet-1-250x250.jpg",
+            name:"White Disposable Bed Sheet, For Hospital And Spa, Size: 40 x 8:",
+            price:"₹ 45",
+            shopName:"Patient Care",
+            place:"Malviya Nagar, New Delhi",
+            mobile:"Call 08048603237"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/8/PB/PB/HL/61733407/31leshqdcsl-250x250.jpg",
+            name:" Non Woven Disposable Bed Sheet, 4x7 feet",
+            price:" ₹ 23/",
+            shopName:"Gopinath Impex",
+            place:"Jasola Vihar, New Delhi",
+            mobile:"Call 08048716205"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2022/1/JK/YW/TO/92198193/disposable-bed-sheet-250x250.jpg",
+            name:"Blue Disposable Bedsheet",
+            price:" ₹ 11",
+            shopName:"S S Enterprises",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/10/DT/OV/UP/3804604/7b6b179d-2e98-48a7-beb0-76a986dbcdb3-250x250.jpg",
+            name:"Disposable Bedsheet with Pillow Cover",
+            price:" ₹  49.43",
+            shopName:"Health Care Private Limited",
+            place:"Hyderabad",
+            mobile:"Call 08048372840"
+  
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/4/JU/LJ/EB/116685235/product-jpeg-250x250.jpg",
+            name:"Blue Double Disposable Bedsheet Cover, For Hospitals",
+            price:" ₹ 34",
+            shopName:"Indian Bags",
+            place:"Chintal, Hyderabad",
+            mobile:"Call 08048372341"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/YZ/BO/QG/ANDROID-5168727/product-jpeg-250x250.jpg",
+            name:"Blue Disposable Non Woven Bed Sheet, Packaging Type: Packet",
+            price:" ₹ 44",
+            shopName:"R.V.Pharma & Surgical",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 08048371776"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/WT/DE/JC/SELLER-3690523/disposable-bed-sheet-250x250.jpeg",
+            name:"Disposable Bed Sheet 160 X210 Cms",
+            price:" ₹ 45",
+            shopName:"Sunbeam Handloom",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 09704688299"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/EP/WV/MY-37746389/hospital-bed-sheet-250x250.jpg",
+            name:"Medi Karma - Hospital Bed Sheet",
+            price:" ₹ 60",
+            shopName:"Medi Karma (Unit Of Kansons Overseas)",
+            place:"Kengeri Upanagara, Bengaluru",
+            mobile:"Call 08048606837"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/AZ/MU/YN/SELLER-48535299/bed-sheet-spunbond-250x250.png",
+            name:"PLAIN SPUN BOND Disposable Bed Sheet, GSM: 50-100, Size",
+            price:" ₹ 30",
+            shopName:"Dhroni",
+            place:"Kolkata",
+            mobile:"Call 08048371711"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2020/9/TD/RV/SH/3137933/product-jpeg-250x250.jpg",
+            name:"Hospital Bed Sheet",
+            price:"₹ 130",
+            shopName:"Central India Fabrics",
+            place:"Madurai Main, Madurai",
+            mobile:"Call 08048371757"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/8/MA/KN/YN/15778126/h28e1faa0cb604b99aaaff20cb69c5bd57-250x250.png",
+            name:"Surgical Medical Bed Sheets",
+            price:"₹ 19",
+            shopName:"Kishan Enterprise",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/AC/BP/KP/SELLER-11860577/hospital-non-woven-bed-sheet-250x250.jpg",
+            name:"Hospital Non Woven Bed Sheet",
+            price:" ₹ 15",
+            shopName:"Sharma Handloom House",
+            place:"tran taran road, Amritsar",
+            mobile:"Call 08047018532"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/4/OY/CC/GU/7411643/product-jpeg-250x250.jpg",
+            name:"White Hospital Disposable Bed Sheet, Size: 32x72 inch",
+            price:" ₹ 7.5",
+            shopName:"Spatex Dispensable Garments Private Limited",
+            place:"Radha Vallabh, Khargone, Dist. West Nimar",
+            mobile:"Call 07971383780"
+   
+        },
+        {
+            image:"https://5.imimg.com/data5/WB/EK/MJ/IOS-70761747/product-jpeg-250x250.png",
+            name:"White Disposable Bed Sheet With Pillow Cover, Size: 48",
+            price:" ₹ 7",
+            shopName:"Ultimate Industries",
+            place:"Laxmi Nagar, New Delhi",
+            mobile:"Call 08048612068"
+ 
+        },
+        {
+            image:"https://5.imimg.com/data5/PE/FJ/WL/GLADMIN-8906679/disposable-surgical-plain-sheet-250x250.jpeg",
+            name:"Sky Blue Disposable Hospital Plain Sheet",
+            price:"₹ 28",
+            shopName:"Dhwanit Enterprise",
+            place:"Palghar, Palghar, Dist. Thane",
+            mobile:"Call 08048372867"
+           
+        },
+        
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/9/PO/US/QV/4943362/disposable-sheet-250x250.jpg",
+            name:"Disposable Sheet",
+            price:"₹ 100",
+            shopName:"Bhivsariya Industries",
+            place:"Noida",
+            mobile:"Call 07942538850"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/8/RZ/LB/TY/15293700/bed-sheet-250x250.jpg",
+            name:"Non Woven Meltblown Disposable Bedsheet",
+            price:"₹ 50",
+            shopName:"Godsun Fablab",
+            place:"Noida",
+            mobile:"Call 08049591667"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/3/MV/QI/JK/8914426/white-cotton-plain-fitted-bed-sheet-24-x72-6-deep-250x250.jpg",
+            name:"White Plain Hotel Bed Sheets Fitted, Type: Single, Size:",
+            price:"₹ 125",
+            shopName:"Roopam Textiles",
+            place:"Chandni Chowk, Delhi",
+            mobile:"Call 08048879047"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/9/HQ/EK/WG/783049/disposable-bedsheet-250x250.jpg",
+            name:"Disposable bedsheet",
+            price:"₹ 25",
+            shopName:"Manu Shree Surgical Udyog",
+            place:"Bengaluru",
+            mobile:"Call 08045911725"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/9/UD/NW/GW/88821292/plain-sheet-250x250.png",
+            name:"MEDRESS Blue Surgical Disposable Plain Sheet, For",
+            price:"₹ 25",
+            shopName:"Cortex Products Solution Private Limited",
+            place:"Sector 63, Noida",
+            mobile:"Call 08048006849"
+          
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/IN/YJ/JO/93504755/disposable-bed-sheet-250x250.jpg",
+            name:"Disposable Bed Sheet",
+            price:"₹ 7.59",
+            shopName:"Manish Marketing",
+            place:"Badarpur, New Delhi",
+            mobile:"Call 08048112025"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/6/OX/IR/WS/100520310/disposable-bed-sheet-250x250.jpg",
+            name:"Disposable Bed Sheet",
+            price:" ₹ 6.5",
+            shopName:"Shree Siddhivinayak Enterprises",
+            place:"Malviya Nagar, New Delhi",
+            mobile:"Call 08048603237"
+        
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/ZA/QZ/CH/119626771/disposable-pe-plain-sheet-250x250.JPG",
+            name:"Disposable PE Plain Sheet",
+            price:" ₹ 25",
+            shopName:"Vikram Nuvotech India Private Limited",
+            place:"Jasola Vihar, New Delhi",
+            mobile:"Call 08048716205"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/PE/TT/VV/18869083/disposable-non-woven-bed-sheet-250x250.jpg",
+            name:"White Disposable Non Woven Bed Sheet, For Hospital & Spa,",
+            price:"₹ 15",
+            shopName:"Alpine Sterile Concepts",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/EX/RL/UX/SELLER-106149508/medical-disposable-bed-sheet-250x250.jpg",
+            name:"Medical Disposable Bed Sheet, Size: 31 x 72 Inch",
+            price:"₹ 5",
+            shopName:"Galaxy Enterprises",
+            place:"Hyderabad",
+            mobile:"Call 08048372840"
+ 
+        },
+        {
+            image:"https://5.imimg.com/data5/BV/FV/WM/SELLER-13393702/disposable-draw-sheet-250x250.jpg",
+            name:"Disposable Draw Sheet",
+            price:"₹ 25",
+            shopName:"Essone Global",
+            place:"Chintal, Hyderabad",
+            mobile:"Call 08048372341"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/NZ/JZ/TY/SELLER-2040524/disposable-bed-sheet-250x250.jpg",
+            name:"White Disposable Bed Sheet",
+            price:"₹ 18",
+            shopName:"Jackson Care Product",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 08048371776"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SH/DE/WQ/SELLER-4782732/disposable-spa-bed-sheets-250x250.jpg",
+            name:"Protectmed White Disposable Spa Bed Sheets",
+            price:"₹ 6",
+            shopName:"Om Sai Enterprises",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 09704688299"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/TK/VC/BZ/ANDROID-3913207/1561904630816-jpg-250x250.jpg",
+            name:"Sumo's White & Blue Spa Disposable Bed Sheet",
+            price:" ₹ 6",
+            shopName:"Aparna Bio Tecch",
+            place:"Kengeri Upanagara, Bengaluru",
+            mobile:"Call 08048606837"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2022/1/FN/ZT/UD/3810066/able-50-gsm-disposable-hospital-bed-sheet-250x250.jpg",
+            name:"Able 50 GSM Disposable Hospital Bed Sheet",
+            price:"₹ 24",
+            shopName:"Fashion Creation",
+            place:"Kolkata",
+            mobile:"Call 08048371711"
+            
+        },
+        {
+            image:"https://5.imimg.com/data5/IB/HC/IL/SELLER-5789419/disposable-bed-sheet-250x250.jpeg",
+            name:"Blue Disposable Bed Sheet, For Hospitals",
+            price:" ₹ 15",
+            shopName:"Karma Texworld",
+            place:"Madurai Main, Madurai",
+            mobile:"Call 08048371757"
+        },
+        {
+            image:"https://4.imimg.com/data4/LO/AO/ANDROID-2141481/product-250x250.jpeg",
+            name:"Spa Bed Sheets, Model: coloured",
+            price:" ₹ 15",
+            shopName:"Lenora Disposables",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/5/GE/ES/GL/61486147/disposable-bed-sheet-and-pillow-cover-set-500x500-250x250.jpg",
+            name:"disposable bed sheets with pillow covers",
+            price:"₹ 65",
+            shopName:"Anshi Enterprices",
+            place:"tran taran road, Amritsar",
+            mobile:"Call 08047018532"
+  
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/12/LA/AS/NY/133054863/plain-sheet-250x250.jpg",
+            name:"disposable bed sheets pillow cover",
+            price:" ₹ 110",
+            shopName:"P.B.P Enterprises Private Limited",
+            place:"Mumbai",
+            mobile:"Call 099523893780"
+ 
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/VC/GG/VI/4415107/disposable-bed-sheets-pillow-cover-250x250.jpg",
+            name:"Blue Non Woven Disposable Bed Sheet - Disposable Hospital",
+            price:" ₹ 11.7",
+            shopName:"Kinkob Kreations",
+            place:"MIDC Hingna, Nagpur",
+            mobile:"Call 09972582750"
+ 
+        },
+
+        {
+            image:"https://5.imimg.com/data5/WU/CF/DM/SELLER-4923405/disposable-bed-sheet-250x250.png",
+            name:"Blue Non Woven Disposable Bed Sheet - Disposable Hospital",
+            price:" ₹ 11.7",
+            shopName:"Kinkob Kreations",
+            place:"MIDC Hingna, Nagpur",
+            mobile:"Call 09972582750"
+ 
+        },
+
+
+        {
+            image:"https://5.imimg.com/data5/CN/BD/MY-26265271/disposable-bed-sheets-250x250.jpg",
+            name:"White Disposable Bed Sheet",
+            price:" ₹ 30",
+            shopName:"Shri Radhika Nonwoven Private Limited",
+            place:"Murlipura, Jaipur",
+            mobile:"Call 07271483880"
+ 
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/4/WJ/GR/LO/10326267/pillow-250x250.jpg",
+            name:"White Disposable Bed Sheet",
+            price:"₹ 30",
+            shopName:"Shri Radhika Nonwoven Private Limited",
+            place:"Laxmi Nagar, New Delhi",
+            mobile:"Call 08048612068"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/6/OR/ZD/ED/9203860/hospital-bed-sheet-250x250.jpg",
+            name:"White Disposable Bed Sheet, Size: 31",
+            price:"₹ 7",
+            shopName:"B R Disposables",
+            place:"Laxmi Nagar, New Delhi",
+            mobile:"Call 08048612068"
+           
+        },
+        {
+            image:"https://5.imimg.com/data5/SS/PY/YA/SELLER-12011221/disposable-bed-sheet-250x250.jpg",
+            name:"Blue Disposable Bed sheet, For Hospitals",
+            price:" ₹ 25",
+            shopName:"Aviral Techno Tex",
+            place:"Kanpur",
+            mobile:"Call 08048372867"
+           
+        }
+    ];
+    medical.map(function(data){
+    var div=document.createElement("div");
+    var div1=document.createElement("div");
+    div1.setAttribute("class","imgeDiv");
+    var image=document.createElement("img");
+    image.setAttribute("src",data.image);
+    div1.append(image);
+    var name=document.createElement("p");
+    name.setAttribute("class","name");
+    name.textContent=data.name;
+    var price=document.createElement("p");
+    price.setAttribute("class","price");
+    price.textContent=data.price;
+    var shopName=document.createElement("p");
+    shopName.setAttribute("class","shopName");
+    shopName.textContent=data.shopName;
+    var place=document.createElement("p");
+    place.setAttribute("class","place");
+    place.textContent=data.place;
+    var mobile=document.createElement("P");
+    mobile.setAttribute("class","price");
+    mobile.textContent=data.mobile;
+    var button=document.createElement("button");
+    button.setAttribute("class","button");
+    button.textContent="Contact Supplier";
+    button.addEventListener("click",function(){
+        window.location.href="popPage1Sheet.html";
+    });
+    div.append(div1,name,price,shopName,place,mobile,button);
+    document.querySelector("#whole").append(div);
+});
+</script>

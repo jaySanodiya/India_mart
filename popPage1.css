@@ -1,0 +1,163 @@
+body{
+    background-image: url("phones.jpg");
+    padding-top: 7%;
+}
+
+
+.B1{
+    width:60%;
+    height:max-content;
+    display: grid;
+    height: 500px;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px ;
+    background-color: white;
+}
+
+.B1 p{
+    font-size: large;
+    font-weight: lighter;
+}
+.B1>div:nth-child(1){
+    background-color: rgb(250,250,250);
+}
+.B1>div:nth-child(2) .button{
+    padding:10px 80px;
+    font-size: medium;
+    font-weight: bold;
+    border:0px;
+    border-radius: 3px;
+    background-color: rgb(0,166,153);
+    color:white;
+}
+.B2>div:nth-child(2){
+    display: block;
+}
+.B1>div:nth-child(2) .button:hover{
+    background-color: green;
+}
+
+.B2{
+    width: 60%;
+    height:max-content;
+    display: grid;
+    height: 410px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: #00000029 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+    position:absolute;
+    margin-left: 250px;
+}
+.B2>div:nth-child(2) i{
+    color:rgb(180, 174, 174);
+    padding-left: 5px;
+}
+.B2>div:nth-child(2) .hov{
+    background-color: white;
+    width:max-content;
+    height: max-content;
+    color:black;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+.B2 i:focus .hov{
+    display: block;
+}
+.B2 .sub{
+    width:max-content;
+}
+.B2>div:nth-child(2) .button{
+    padding:13px 70px;
+    font-size: medium;
+    font-weight: bold;
+    border:0px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: rgb(0,166,153);
+    color:white;
+}
+.B2>div:nth-child(2) .i1, .i2{
+    width:300px;
+    height:30px;
+    border-radius: 3px;
+    border:solid rgb(214, 211, 211);
+}
+
+/* .B2 div{
+    border:1px solid red;
+} */
+
+.B2 p{
+    font-size: large;
+    font-weight: lighter;
+}
+.B2>div:nth-child(1){
+    background-color: rgb(250,250,250);
+}
+.B2>div:nth-child(2) .int, .sub{
+    margin-top: 20px;
+}
+.B2>div:nth-child(2) .fm{
+    height:200px;
+    display: block;
+    margin-top: 20px;
+}
+.B2>div:nth-child(2).button:hover{
+    background-color: green;
+}
+.qnty input{
+    width:100px;
+    height:25px;
+}
+.chec{
+    margin-top: -5px;
+}
+.chec>input{
+    margin-left: 20px;
+}
+textarea{
+    margin:-10px 0 10px 0;
+}
+.qnty{
+    display:flex;
+    margin-top: -5px;
+}
+.qnty div{
+    border:1px solid rgb(168, 166, 166);
+    width:105px;
+    height:28px;
+    text-align: left;
+}
+.bot{
+    width:100%;
+    height:80px;
+    color:grey;
+    margin-top:70px;
+}
+.bot h3{
+    margin-top: -9px;
+}
+.B2 .bot {
+    margin-top: 40px;
+}
+.B2 .sub>i{
+    margin-bottom: 0px;
+}
+.sub>button{
+    background-color:rgb(0,166,153) ;
+    border:none;
+    color:white;
+    padding:10px 26px 10px 26px;
+}
+.sub>button:hover{
+    background-color: green;
+    cursor: pointer;
+}
