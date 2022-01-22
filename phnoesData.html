@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var phones=[
+        {
+            image:"http://5.imimg.com/data5/SELLER/Default/2021/11/OO/TE/JQ/137994279/whatsapp-image-2021-10-26-at-12-23-55-pm-jpeg-500x500.jpeg",
+            name:"Prexo Mobile Phone",
+            price:"1,500/ onwards",
+            shopName:"Onsite Phones Private Limited",
+            place:"Noida",
+            mobile:"Call 07942538850",
+            brand:"Local"
+        },
+        {
+            image:"http://5.imimg.com/data5/SELLER/Default/2021/10/AV/DL/EU/101141081/used-mobile-phones-500x500.jpg",
+            name:"Mixed Colors Used Mobile Phones",
+            price:"5,000/ Piece",
+            shopName:"Wefixgadgets",
+            place:"Noida",
+            mobile:"Call 08049591667",
+            brand:"Mixed"
+        },
+        {
+            image:"http://5.imimg.com/data5/NX/UB/IN/SELLER-22035967/i-kall-k18-new-500x500.jpeg",
+            name:"MIX I KALL K18 NEW Mobile Phone, Memory Size: 32 MB",
+            price:"920/ Piece",
+            shopName:"Alpha Radios",
+            place:"Chandni Chowk, Delhi",
+            mobile:"Call 08048879047",
+            brand:"I KALL"
+        },
+        {
+            image:"http://5.imimg.com/data5/ANDROID/Default/2021/11/UB/NQ/GQ/85602460/product-jpeg-500x500.jpg",
+            name:"Samsung Second Hand Bulk Mobiles., Memory Size: 32GB",
+            price:"5,000/ Strip of 5 Tablets",
+            shopName:"Infinix Technologies",
+            place:"Bengaluru",
+            mobile:"Call 08045911725",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/OL/DT/AZ/SELLER-8266774/1-8-inch-selfie-feature-phone-mobile-phone-keypad-phone-500x500.png",
+            name:"OEM Gsm 1.8 Inch Selfie Feature Phone / Mobile Phone / Keypad",
+            price:"399/ Piece",
+            shopName:"Creatons Corporation Private Limited",
+            place:"Sector 63, Noida",
+            mobile:"Call 08048006849",
+            brand:"Local"
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/12/UG/ZY/SI/112551880/product-jpeg-250x250.jpg",
+            name:"Samsung Guru Music 2 Mobile Phone",
+            price:"950/ Piece",
+            shopName:"Braino Services",
+            place:"Badarpur, New Delhi",
+            mobile:"Call 08048112025",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/QK/HT/LR/39893036/samsung-galaxy-m21-250x250.jpg",
+            name:"4G blue Samsung Galaxy M21, Memory Size: 64, Screen Size:",
+            price:" 13,999",
+            shopName:"Uniglobe Infotech Private Limited",
+            place:"Malviya Nagar, New Delhi",
+            mobile:"Call 08048603237",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/LL/WO/MY-11808829/samsung-galaxy-j2-pro-250x250.jpg",
+            name:"Samsung Galaxy J2 Pro",
+            price:" 8,500",
+            shopName:"Fiable Creations India Private Limited",
+            place:"Jasola Vihar, New Delhi",
+            mobile:"Call 08048716205",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/11/PZ/WI/XY/25006117/samsung-galaxy-a71-smart-phone-250x250.jpg",
+            name:"Samsung Galaxy A71 Smart Phone, Dimension: 163.6 X 76.",
+            price:" 20,900",
+            shopName:"Ganesh Mobile & Electronics",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/10/WA/GU/TL/139348071/xiaomi-mi-11x-pro-5g-8gb-ram-256gb-250x250.jpg",
+            name:"Black Xiaomi Mi 11X Pro 5G 8GB RAM 256GB",
+            price:" 28,000",
+            shopName:"Rajitha Erugadindla",
+            place:"Hyderabad",
+            mobile:"Call 08048372840",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/WM/QP/ZO/ANDROID-96931568/product-jpeg-250x250.jpg",
+            name:"Black Redmi Note 7 Pro, Model",
+            price:" 13,990",
+            shopName:"MS Mobile Store",
+            place:"Chintal, Hyderabad",
+            mobile:"Call 08048372341",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/LS/JT/AI/116357914/real-me-narzo-250x250.png",
+            name:"Anroid Redmi Note 9 Pro, Memory Size: 64GB-128GB,",
+            price:" 12,299",
+            shopName:"The Mobile Factory",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 08048371776",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/FE/UM/GLADMIN-22658164/xiaomi-mi-max-2-250x250.png",
+            name:"Xiaomi Mi Max 2",
+            price:" 17,499",
+            shopName:"Hotspot Store",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 09704688299",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/DL/FF/MR/25753287/micromax-x744-black-dual-sim-250x250.jpg",
+            name:"Micromax X744 Black Dual Sim Mobile, Screen Size: 2.4 Inches",
+            price:" 1,200",
+            shopName:"SREEDEVI ELECTRONICS AND MOBILES",
+            place:"Kengeri Upanagara, Bengaluru",
+            mobile:"Call 08048606837",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/IF/PX/XR/ANDROID-98804437/product-jpeg-250x250.jpg",
+            name:"Blue Micromax x741, Screen Size: 2.4",
+            price:" 968",
+            shopName:"Baba Lokenath Telecom",
+            place:"Kolkata",
+            mobile:"Call 08048371711",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/1/DL/UC/DG/119906498/img-20210122-224036-jpg-250x250.jpg",
+            name:"Ips Display Blue Micromax X746 Mobile Phone",
+            price:" 1,000",
+            shopName:"Madurai Mobi Care",
+            place:"Madurai Main, Madurai",
+            mobile:"Call 08048371757",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/8/BZ/QF/KZ/25006117/appo-reno-6-pro-6-128-250x250.png",
+            name:"Octra 6.43 Oppo Reno 6 5g 8.128gb, 26MP",
+            price:" 28,450",
+            shopName:"Ganesh Mobile & Electronics",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/HK/LE/LL/1073409/oppo-mobile-a9-2020-250x250.jpg",
+            name:"Oppo Mobile A9 2020, Seal Box, 8gb 128 Gb",
+            price:" 14,990",
+            shopName:"Paras Trading Co.",
+            place:"tran taran road, Amritsar",
+            mobile:"Call 08047018532",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/3/UN/FL/BJ/4924047/oppo-a15s-fancy-white-64-gb-4-gb-ram--250x250.jpg",
+            name:"HD+ TFT-LCD Display OPPO A15s ( Fancy White, 64 Gb) (4 Gb",
+            price:" 11,990",
+            shopName:"National Mobile",
+            place:"Radha Vallabh, Khargone, Dist. West Nimar",
+            mobile:"Call 07971383780",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/9/PX/EB/DD/77676186/sony-xperia-1-iii-smart-mobile-phone-250x250.jpg",
+            name:"Sony Xperia 1 III 5G Smart Mobile Phone",
+            price:" 1.68 Lakh",
+            shopName:"ASN Enterprises",
+            place:"Laxmi Nagar, New Delhi",
+            mobile:"Call 08048612068",
+            brand:"Sony"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/9/BM/EE/EO/137943596/sony-xperia-1-iii-dual-sim-256gb-5g-smartphone-unlocked-frosted-black--250x250.jpg",
+            name:"Sony Xperia 1 Iii Dual-sim 256gb 5g Smartphone (unlocked, Frosted Black)",
+            price:" 58,910",
+            shopName:"Globe Carbon Industries",
+            place:"Palghar, Palghar, Dist. Thane",
+            mobile:"Call 08048372867",
+            brand:"Sony"
+        },
+        {
+            image:"https://5.imimg.com/data5/ECOM/Default/2022/1/RK/KU/MS/14558342/08a7-250x250.jpg",
+            name:"KECHAODA K10 Finger Bluetooth Phone, Single SIM,",
+            price:"",
+            shopName:" 1,199",
+            place:"Gauba Traders",
+            mobile:"Call 08048371563",
+            brand:"Kechaoda"
+        },
+        {
+            image:"http://5.imimg.com/data5/SELLER/Default/2021/11/OO/TE/JQ/137994279/whatsapp-image-2021-10-26-at-12-23-55-pm-jpeg-500x500.jpeg",
+            name:"Prexo Mobile Phone",
+            price:"1,500/ onwards",
+            shopName:"Onsite Phones Private Limited",
+            place:"Noida",
+            mobile:"Call 07942538850",
+            brand:"Local"
+        },
+        {
+            image:"http://5.imimg.com/data5/SELLER/Default/2021/10/AV/DL/EU/101141081/used-mobile-phones-500x500.jpg",
+            name:"Mixed Colors Used Mobile Phones",
+            price:"5,000/ Piece",
+            shopName:"Wefixgadgets",
+            place:"Noida",
+            mobile:"Call 08049591667",
+            brand:"Mixed"
+        },
+        {
+            image:"http://5.imimg.com/data5/NX/UB/IN/SELLER-22035967/i-kall-k18-new-500x500.jpeg",
+            name:"MIX I KALL K18 NEW Mobile Phone, Memory Size: 32 MB",
+            price:"920/ Piece",
+            shopName:"Alpha Radios",
+            place:"Chandni Chowk, Delhi",
+            mobile:"Call 08048879047",
+            brand:"I KALL"
+        },
+        {
+            image:"http://5.imimg.com/data5/ANDROID/Default/2021/11/UB/NQ/GQ/85602460/product-jpeg-500x500.jpg",
+            name:"Samsung Second Hand Bulk Mobiles., Memory Size: 32GB",
+            price:"5,000/ Strip of 5 Tablets",
+            shopName:"Infinix Technologies",
+            place:"Bengaluru",
+            mobile:"Call 08045911725",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/OL/DT/AZ/SELLER-8266774/1-8-inch-selfie-feature-phone-mobile-phone-keypad-phone-500x500.png",
+            name:"OEM Gsm 1.8 Inch Selfie Feature Phone / Mobile Phone / Keypad",
+            price:"399/ Piece",
+            shopName:"Creatons Corporation Private Limited",
+            place:"Sector 63, Noida",
+            mobile:"Call 08048006849",
+            brand:"Local"
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/12/UG/ZY/SI/112551880/product-jpeg-250x250.jpg",
+            name:"Samsung Guru Music 2 Mobile Phone",
+            price:"950/ Piece",
+            shopName:"Braino Services",
+            place:"Badarpur, New Delhi",
+            mobile:"Call 08048112025",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/QK/HT/LR/39893036/samsung-galaxy-m21-250x250.jpg",
+            name:"4G blue Samsung Galaxy M21, Memory Size: 64, Screen Size:",
+            price:" 13,999",
+            shopName:"Uniglobe Infotech Private Limited",
+            place:"Malviya Nagar, New Delhi",
+            mobile:"Call 08048603237",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/LL/WO/MY-11808829/samsung-galaxy-j2-pro-250x250.jpg",
+            name:"Samsung Galaxy J2 Pro",
+            price:" 8,500",
+            shopName:"Fiable Creations India Private Limited",
+            place:"Jasola Vihar, New Delhi",
+            mobile:"Call 08048716205",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/11/PZ/WI/XY/25006117/samsung-galaxy-a71-smart-phone-250x250.jpg",
+            name:"Samsung Galaxy A71 Smart Phone, Dimension: 163.6 X 76.",
+            price:" 20,900",
+            shopName:"Ganesh Mobile & Electronics",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497",
+            brand:"Samsung"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/10/WA/GU/TL/139348071/xiaomi-mi-11x-pro-5g-8gb-ram-256gb-250x250.jpg",
+            name:"Black Xiaomi Mi 11X Pro 5G 8GB RAM 256GB",
+            price:" 28,000",
+            shopName:"Rajitha Erugadindla",
+            place:"Hyderabad",
+            mobile:"Call 08048372840",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/WM/QP/ZO/ANDROID-96931568/product-jpeg-250x250.jpg",
+            name:"Black Redmi Note 7 Pro, Model",
+            price:" 13,990",
+            shopName:"MS Mobile Store",
+            place:"Chintal, Hyderabad",
+            mobile:"Call 08048372341",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/LS/JT/AI/116357914/real-me-narzo-250x250.png",
+            name:"Anroid Redmi Note 9 Pro, Memory Size: 64GB-128GB,",
+            price:" 12,299",
+            shopName:"The Mobile Factory",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 08048371776",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/FE/UM/GLADMIN-22658164/xiaomi-mi-max-2-250x250.png",
+            name:"Xiaomi Mi Max 2",
+            price:" 17,499",
+            shopName:"Hotspot Store",
+            place:"Vanasthalipuram, Hyderabad",
+            mobile:"Call 09704688299",
+            brand:"MI"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2020/12/DL/FF/MR/25753287/micromax-x744-black-dual-sim-250x250.jpg",
+            name:"Micromax X744 Black Dual Sim Mobile, Screen Size: 2.4 Inches",
+            price:" 1,200",
+            shopName:"SREEDEVI ELECTRONICS AND MOBILES",
+            place:"Kengeri Upanagara, Bengaluru",
+            mobile:"Call 08048606837",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/IF/PX/XR/ANDROID-98804437/product-jpeg-250x250.jpg",
+            name:"Blue Micromax x741, Screen Size: 2.4",
+            price:" 968",
+            shopName:"Baba Lokenath Telecom",
+            place:"Kolkata",
+            mobile:"Call 08048371711",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/ANDROID/Default/2021/1/DL/UC/DG/119906498/img-20210122-224036-jpg-250x250.jpg",
+            name:"Ips Display Blue Micromax X746 Mobile Phone",
+            price:" 1,000",
+            shopName:"Madurai Mobi Care",
+            place:"Madurai Main, Madurai",
+            mobile:"Call 08048371757",
+            brand:"Micromax"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/8/BZ/QF/KZ/25006117/appo-reno-6-pro-6-128-250x250.png",
+            name:"Octra 6.43 Oppo Reno 6 5g 8.128gb, 26MP",
+            price:" 28,450",
+            shopName:"Ganesh Mobile & Electronics",
+            place:"Kalbadevi, Mumbai",
+            mobile:"Call 08048744497",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/1/HK/LE/LL/1073409/oppo-mobile-a9-2020-250x250.jpg",
+            name:"Oppo Mobile A9 2020, Seal Box, 8gb 128 Gb",
+            price:" 14,990",
+            shopName:"Paras Trading Co.",
+            place:"tran taran road, Amritsar",
+            mobile:"Call 08047018532",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/3/UN/FL/BJ/4924047/oppo-a15s-fancy-white-64-gb-4-gb-ram--250x250.jpg",
+            name:"HD+ TFT-LCD Display OPPO A15s ( Fancy White, 64 Gb) (4 Gb",
+            price:" 11,990",
+            shopName:"National Mobile",
+            place:"Radha Vallabh, Khargone, Dist. West Nimar",
+            mobile:"Call 07971383780",
+            brand:"Oppo"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/9/PX/EB/DD/77676186/sony-xperia-1-iii-smart-mobile-phone-250x250.jpg",
+            name:"Sony Xperia 1 III 5G Smart Mobile Phone",
+            price:" 1.68 Lakh",
+            shopName:"ASN Enterprises",
+            place:"Laxmi Nagar, New Delhi",
+            mobile:"Call 08048612068",
+            brand:"Sony"
+        },
+        {
+            image:"https://5.imimg.com/data5/SELLER/Default/2021/9/BM/EE/EO/137943596/sony-xperia-1-iii-dual-sim-256gb-5g-smartphone-unlocked-frosted-black--250x250.jpg",
+            name:"Sony Xperia 1 Iii Dual-sim 256gb 5g Smartphone (unlocked, Frosted Black)",
+            price:" 58,910",
+            shopName:"Globe Carbon Industries",
+            place:"Palghar, Palghar, Dist. Thane",
+            mobile:"Call 08048372867",
+            brand:"Sony"
+        },
+        {
+            image:"https://5.imimg.com/data5/ECOM/Default/2022/1/RK/KU/MS/14558342/08a7-250x250.jpg",
+            name:"KECHAODA K10 Finger Bluetooth Phone, Single SIM,",
+            price:"",
+            shopName:" 1,199",
+            place:"Gauba Traders",
+            mobile:"Call 08048371563",
+            brand:"Kechaoda"
+        }
+    ];
+    localStorage.setItem("phones", JSON.stringify(phones));
+</script>

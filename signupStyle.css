@@ -78,6 +78,14 @@ body{
     border-radius: 3px;
     border:0px;
 }
+.third #otpbutton{
+    background-color:rgb(0,166,153); ;
+    border:none;
+    padding:10px 50px 10px 50px;
+    margin-left: 32%;
+    margin-top: 4%;
+    color:white;
+}
 .or{
     text-align: center;
     font-family:sans-serif;
