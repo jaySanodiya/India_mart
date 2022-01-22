@@ -654,150 +654,235 @@ body {
 }
 
 
+/* <!-- -------------------------------------Bottom Feedback form start------------------------------------- --> */
+
+#Bfeedback {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 350px;
+  width: 60%;
+  border-radius: 5px;
+  margin: 50px 200px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-areas:"a a a a a a a a a a b b"
+                      "c c c c c d d d d d d d"
+                      "e e e e e f f f f f f f"
+                      "g g g g g g g g h h h h";
+}
+#Bfeedback >.BfeedbackBox1{
+  grid-area: a;
+  /* border:1px solid red; */
+  margin:0px 0px 20px 20px;
+}
+#Bfeedback >.BfeedbackBox1 >h2 {
+  color: rgb(94, 94, 211);
+  font-weight: 50;
+}
+#Bfeedback >.BfeedbackBox2{
+  grid-area: b;
+  margin:18px 0px 20px -10px;
+}
+#Bfeedback >.BfeedbackBox2 > i {
+  color:green;
+  font-size: small;
+}
+#Bfeedback >.BfeedbackBox2 > select {
+  border: 0;
+  font-size: large;
+}
+#Bfeedback >.BfeedbackBox3{
+  grid-area: c;
+  margin:-20px 25px;
+}
+#Bfeedback >.BfeedbackBox3 > h4 {
+  font-weight: 100;
+}
+#Bfeedback >.BfeedbackBox4{
+  grid-area: d;
+  margin:-10px 0px 0px 0px;
+}
+#Bfeedback >.BfeedbackBox4 > input {
+  width: 400px;
+  height: 30px;
+  padding: 2px;
+  font-size: large;
+}
+#Bfeedback >.BfeedbackBox5{
+  grid-area: e;
+  margin:10px 25px;
+}
+#Bfeedback >.BfeedbackBox6{
+  grid-area: f;
+  margin:-10px 0px -20px 0px;
+}
+#Bfeedback >.BfeedbackBox5 > h4 {
+  font-weight: 100;
+}
+#Bfeedback >.BfeedbackBox6 > textarea {
+  width: 400px;
+  padding: 2px;
+  font-size:large;
+}
+#Bfeedback >.BfeedbackBox7{
+  grid-area: g;
+  margin:5px 0px -20px 20px;
+}
+#Bfeedback >.BfeedbackBox8{
+  grid-area: h;
+}
+#Bfeedback >.BfeedbackBox8 > button {
+  background-color: rgb(0,166,154);
+  border: 0;
+  color: white;
+  padding: 0 5px;
+  height: 45px;
+  font-size:large;
+  margin:10px 0px 0px 0px;
+  width: 180px;
+}
+
 /* --------------------------------------footer start--------------------------------------------- */
 
 #footer> .nav{
+    margin-top: 100px;
     display: flex;
-    margin-top: 50px;
     background-color: rgb(238,238,238);
     border: 1px solid white;
     color: rgb(34, 34, 34);
     height: 50px;
     justify-content: space-around;
     align-items: center;
-  }
-  #footer > .nav > div {
-  
+    }
+    #footer > .nav > div {
+    
     display: flex;
     width: 30%;
     margin: 0px 0px 0px 10px;
-  }
-  #footer > .nav >div >h1{
+    }
+    #footer > .nav >div >h1{
     color: rgb(94, 94, 211);
     font-weight: 50;
     margin-left: 50px;
-  }
-  #footer > .nav >div > h5 {
+    }
+    #footer > .nav >div > h5 {
     margin: 4px 10px;
     font-weight: 100;
-  }
-  #footer > .nav >div :nth-child(2) {
+    }
+    #footer > .nav >div :nth-child(2) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-  }
-  #footer > .nav >div :nth-child(3) {
+    }
+    #footer > .nav >div :nth-child(3) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-  }
-  #footer > .nav >div :nth-child(4) {
+    }
+    #footer > .nav >div :nth-child(4) {
     font-size: 25px;
     margin: 0 3px;
     color: black;
-  }
-  #footer > .nav >div :nth-child(6) {
+    }
+    #footer > .nav >div :nth-child(6) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(59,89,152);
-  }
-  #footer > .nav >div :nth-child(7) {
+    }
+    #footer > .nav >div :nth-child(7) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(85,172,238);
-  }
-  #footer > .nav >div :nth-child(8) {
+    }
+    #footer > .nav >div :nth-child(8) {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(0,122,185);
-  }
-  #footer > .nav >div :nth-child(2):hover {
+    }
+    #footer > .nav >div :nth-child(2):hover {
     color: rgb(94, 92, 92);
     transition: all;
-  }
-  #footer > .nav >div :nth-child(3):hover {
+    }
+    #footer > .nav >div :nth-child(3):hover {
     color: rgb(94, 92, 92);
-  }
-  #footer > .nav >div :nth-child(4):hover {
+    }
+    #footer > .nav >div :nth-child(4):hover {
     color: rgb(94, 92, 92);
-  }
-  #footer > .nav >div :nth-child(6):hover {
+    }
+    #footer > .nav >div :nth-child(6):hover {
     font-size: 25px;
     margin: 0 3px;
     color: rgb(94, 92, 92);
-  }
-  #footer > .nav >div :nth-child(7):hover {
+    }
+    #footer > .nav >div :nth-child(7):hover {
     color: rgb(94, 92, 92);
-  }
-  #footer > .nav >div :nth-child(8):hover {
+    }
+    #footer > .nav >div :nth-child(8):hover {
     color: rgb(94, 92, 92);
-  }
-  
-  
-  #footer > #lastfooter{
-    background-color:white;
+    }
+    
+    
+    #footer > #lastfooter{
     display:flex;
     position: absolute;
-    left: 200px;
-    margin: 0px;
+    left: 180px;
+    margin: 20px 0 0 0;
     color: rgb(101, 105, 106);
     }
     #footer > #lastfooter > ul {
-      list-style-type: none;
-      line-height: 25px;
-      cursor: pointer;
-  
+        list-style-type: none;
+        cursor: pointer;
     }
     #footer> #lastfooter>.main>li:hover{
-      color: blue;
+        color: blue;
     }
     #footer> #lastfooter>.first{
-      margin: 0 0 0 80px;
+        margin: 17px 0 0 40px;
     }
     #footer> #lastfooter>.first>li:hover{
-      color: blue;
+        color: blue;
     }
     #footer> #lastfooter>.second{
-      margin: 0 0 0 80px;
+        margin: -8px 0 0 40px;
     }
     #footer> #lastfooter>.second>li:hover{
-      color: blue;
+        color: blue;
     }
     #footer> #lastfooter>.third{
-      margin: 0 0 0 80px;
+        margin: -10px 0 0 40px;
     }
     #footer> #lastfooter>.third>li:hover{
-      color: blue;
+        color: blue;
     }
     #footer>#lastfooter> .fourth{
-      margin: 0 0 0 80px;
+        margin: -10px 0 0 40px;
     }
     #footer> #lastfooter>.fourth>li:hover{
-      color: blue;
+        color: blue;
     }
     #footer> #lastfooter>.fourth>p{
-      color:rgb(43, 42, 42);
-      font-size:22px;
-      cursor: text;
+        color:rgb(43, 42, 42);
+        font-size:22px;
+        cursor: text;
     }
     #footer> #lastfooter>.third>p,.second>p{
-      color:rgb(43, 42, 42);
-      font-size:22px;
+        color:rgb(43, 42, 42);
+        font-size:22px;
     }
     #footer> #lastfooter>.third>p:hover,.second>p:hover{
-      color: rgb(112, 112, 217);
+        color: rgb(112, 112, 217);
     }
-  #footer> #endpage {
-    height: 20px;
-    padding-bottom: 30px;
+    #footer> #endpage {
+    height: 50px;
     width: 100%;
-    margin-top: 210px;
-  }
-  #footer> #endpage > div>ul {
+    margin-top: 160px;
+    }
+    #footer> #endpage > div>ul {
     display: flex;
+    margin-left: -30px;
     justify-content: space-around;
     list-style-type: none;
     color: rgb(101, 105, 106);
     font-size: small;
-  }
-  
+    }
+    

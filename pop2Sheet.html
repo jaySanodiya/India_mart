@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="B2">
-        <div></div>
+        <div id="imagess"></div>
         <div>
             <div>
                 <h2 style="font-weight: lighter;">Please provide a few details to get quick response from the supplier</h2>
@@ -48,6 +48,16 @@
 </body>
 </html>
 <script>
+    var jay = JSON.parse(localStorage.getItem("ContactDealer"));
+
+// console.log(jay);
+        jay.map(function(data){
+            var trapti = document.createElement("img");
+            trapti.setAttribute("src",data.image);
+            trapti.style.height="200px"
+            trapti.style.margin="50px"
+            document.querySelector("#imagess").append(trapti);
+        });
     document.querySelector("form").addEventListener("submit",thankyou)
     var inp=[]
     function thankyou(event){
