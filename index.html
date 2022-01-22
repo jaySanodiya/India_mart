@@ -2810,6 +2810,9 @@
 <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
 <script>
     var x = JSON.parse(localStorage.getItem("USERDATA"));
+    var j = JSON.parse(localStorage.getItem("UserNumber"));
+     var r = document.querySelector("#UserNumb");
+        r.textContent=j;
     var elem = x[x.length-1];
     if(x.length>0){
         
@@ -2825,8 +2828,8 @@
         var q = document.querySelector("#UserName3");
         q.textContent="";
         q.textContent=elem.UsrName;
-        var r = document.querySelector("#UserNumb");
-        r.textContent=elem.UsrNum;
+        // var r = document.querySelector("#UserNumb");
+        // r.textContent=elem.UsrNum;
     }
 
 </script>

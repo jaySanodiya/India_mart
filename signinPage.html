@@ -95,4 +95,8 @@
     btn.addEventListener("click",function(){
         window.location.href="otppage.html";
     })
+    function formSubmit(){
+        var x = document.querySelector("#usrNumber").value;
+        localStorage.setItem("UserNumber", JSON.stringify(x),);
+    }
 </script>
