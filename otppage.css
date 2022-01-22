@@ -1,0 +1,74 @@
+body>#otpfile{
+    width:31%;
+    margin: auto;
+    margin-top: 15%;
+    border:1px solid rgb(201, 199, 199);
+    font-family:sans-serif;
+    background-color: white;
+}
+body>#otpfile>.top{
+    margin-bottom: 4%;
+    height:47px;
+    font-size: 21px;
+    font-family:sans-serif;
+    background-color: rgb(46,49,146);
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 15%;
+    padding-top: 19px;
+    text-align: center;
+}
+#otpfile>.top>button{
+    margin-left: 60px;
+    background-color:rgb(218, 214, 214);
+    border:none;
+}
+#otpfile>.top>button:hover{
+    cursor: pointer;
+}
+#otpfile>.bottom>div>.first{
+    color:rgb(46,49,146);
+    font-size: 20px;
+    text-align: center;
+}
+#otpfile>.bottom>div:nth-child(2)>p{
+    font-size: 12px;
+    color:gray;
+    text-align: center;
+    line-height: 8px;
+}
+#otpfile>.bottom>div>.otpNum{
+    height:30px;
+    width:100px;
+    margin-left: 30%;;
+}
+#otpfile>.bottom>div>.otpNum:hover{
+    cursor: pointer;
+}
+#otpfile>.bottom>div>.submitOtp{
+    background-color: rgb(0,166,153);
+    color:white;
+    border:none;
+    padding:7px 22px 7px 22px;
+    font-size: 18px;
+}
+#otpfile>.bottom>div>.submitOtp:hover{
+    cursor: pointer;
+}
+#otpfile>.bottom>div>.did{
+    font-size: 12px;
+    margin-left: 20px;
+    color:gray;
+    letter-spacing: -0.3px;
+    line-height: 60px;
+}
+#otpfile>.bottom>div>.resend{
+    margin-left: 50px;
+    color:rgb(46,49,146);
+    font-size: 12px;
+    margin-top: 4%;
+}
+#otpfile>.bottom>div>.resend:hover{
+    color:red;
+    cursor: pointer;
+}
