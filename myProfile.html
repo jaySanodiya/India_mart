@@ -225,9 +225,9 @@
             </div>
                 <table>
                     <tr>
-                        <td class="start"><b>
-                            Ashish Kumar Mohanty
-                        </b><i class="fas fa-pen"></i></td>
+                        <td class="start"><b id="UserName">
+                            
+                        </b> <a class="pencil" href="ManageProfile.html"> <i class="fas fa-pen"> </i></a></td>
                         <td></td>
                     </tr>
                     <tr>
@@ -235,7 +235,7 @@
                         <td>Product Of Interest :</td>
                     </tr>
                     <tr>
-                        <td class="start">Sundargarh,Odisha
+                        <td class="start">
                             <!-- <img class="flag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINoTD4G-n1SfeLoq9zy5I00T6qTuGacEiWg&usqp=CAU"> -->
                         </td>
                         <td>Member Since :</td>
@@ -247,16 +247,16 @@
                 <b>
                     Contact Information
                 </b>
-                <i class="fas fa-pen"></i>
+                <a class="pencil" href="ManageProfile.html"><i class="fas fa-pen"></i></a>
             </div>
             <table>
                 <tr>
-                    <td>Primary Mobile :</td>
-                    <td>Alternative Mobile :</td>
+                    <td>Primary Mobile : <span id="UserNumber"></span></td>
+                    <td>Alternative Mobile :  <span id="UserAltNumber"></span></td>
                 </tr>
                 <tr>
-                    <td>Primary Email :</td>
-                    <td>Alternative Email :</td>
+                    <td>Primary Email : <span id="UserEmail"></span></td>
+                    <td>Alternative Email : <span id="UserAltEmail"></span></td>
                 </tr>
                 <tr>
                     <td>Address :</td>
@@ -267,7 +267,7 @@
         <div class="third">
             <div>
                 <b>Company Information</b>
-                <i class="fas fa-pen"></i>
+                <a class="pencil" href="ManageProfile.html"><i class="fas fa-pen"></i></a>
             </div>
             <table>
                 <tr>
@@ -283,7 +283,7 @@
         <div class="fourth">
             <div>
                 <b>Bank Account Details</b>
-                <i class="fas fa-pen"></i>
+                <a class="pencil" href="ManageProfile.html"><i class="fas fa-pen"></i></a>
             </div>
             <table>
                 <tr>
@@ -363,3 +363,15 @@
 </body>
 </html>
 <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+<script>
+    var x = JSON.parse(localStorage.getItem("USERDATA"));
+    x.map(function(elem){
+        console.log(elem);
+        document.querySelector("#UserName").innerHTML=elem.UsrName;
+        document.querySelector("#UserNumber").innerHTML=elem.UsrNum;
+        document.querySelector("#UserAltNumber").innerHTML=elem.UsrAltNum;
+        document.querySelector("#UserEmail").innerHTML=elem.UsrEmail;
+        document.querySelector("#UserAltEmail").innerHTML=elem.UsrAltEmail;
+    })
+    
+</script>
