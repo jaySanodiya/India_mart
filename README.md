@@ -1,6 +1,6 @@
 # New-file
-#first.html
-start our page from first.html
+#firstPage.html
+start our page from firstPage.html
 then go to sign in which is at upper right corner 
 we need to sign in first, after entering mobile number and OTP (1234) it will leed us to our index.html which is most inportant landing page
 there we can explore more options like Sell, Help (For Buyers, For Sellers), View profile (edit it by clicking pen), Post Your Requirement, Verified Business Buyer
