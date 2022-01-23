@@ -1,6 +1,7 @@
 body{
     background-image: url("phones.jpg");
     padding-top: 7%;
+    background-size: cover;
 }
 
 /* -------------------------------demo------------------- */

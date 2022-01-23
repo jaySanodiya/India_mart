@@ -3,6 +3,7 @@
 body{
     background-image: url("sheet.jpeg");
     padding-top: 7%;
+    background-size: cover;
 }
 
 /* -------------------------------demo------------------- */
