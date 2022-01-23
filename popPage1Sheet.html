@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="B1">
-        <div></div>
+        <div id="whole"></div>
         <div>
             <button onclick="window.location.href='sheet.html'" type="button" class="close" data-dismiss="modal"> &times;</button>
             <div>
@@ -55,6 +55,35 @@
 </body>
 </html>
 <script>
+
+var jay = JSON.parse(localStorage.getItem("ContactDealer"));
+
+// console.log(jay);
+        jay.map(function(data){
+    var div=document.createElement("div");
+    var div1=document.createElement("div");
+    div1.setAttribute("class","imgeDiv");
+    var image=document.createElement("img");
+    image.setAttribute("src",data.image);
+    div1.append(image);
+    var name=document.createElement("p");
+    name.setAttribute("class","name");
+    name.textContent=data.name;
+    var price=document.createElement("p");
+    price.setAttribute("class","price");
+    price.textContent=data.price;
+    var shopName=document.createElement("p");
+    shopName.setAttribute("class","shopName");
+    shopName.textContent=data.shopName;
+    var place=document.createElement("p");
+    place.setAttribute("class","place");
+    place.textContent=data.place;
+    var mobile=document.createElement("P");
+    mobile.setAttribute("class","price");
+    mobile.textContent=data.mobile;
+    div.append(div1,name,price,shopName,place,mobile);
+    document.querySelector("#whole").append(div);
+});
     document.querySelector("form").addEventListener("submit",next)
 
     function next(event){
