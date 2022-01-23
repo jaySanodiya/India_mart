@@ -31,12 +31,12 @@
                     </div>   
                     <button id="gsear"><i class="fas fa-search"></i> Search</button>
                 </div>
-                <button class="dis"><a href="https://my.indiamart.com/buyertools/postbl?modid=MY">Get Best Price</a> </button>
+                <button class="dis"><a href="#">Get Best Price</a> </button>
             </div>
         </div>
         <div id="div2">
             <div class="menu1">
-                <a href="https://www.indiamart.com/corona-covid-19-supplies.html"><i class="fas fa-plus-square"></i></a> 
+                <a href="#"><i class="fas fa-plus-square"></i></a> 
             <p class="navmenu">Covid-19 Supplies</p>
 
             <!------- dropdown list ---------->
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <div>
-                <a href="#"> <i class="fas fa-store"></i> </a>
+                <a href="sells.html"> <i class="fas fa-store"></i> </a>
             <p class="navmenu1">Sell</p>
             </div>
         <div class="menu2">
@@ -155,8 +155,8 @@
             <div class="help">
                 <p class="helphead">Find answers to your queries</p>
                 <div>
-                    <p><i class="fas fa-shopping-cart"></i>For <a href="">Buying</a> </p>
-                    <p><i class="fas fa-store"></i>For <a href="">Selling</a></p>
+                    <p><i class="fas fa-shopping-cart"></i>For <a href="helpPage.html">Buying</a> </p>
+                    <p><i class="fas fa-store"></i>For <a href="sellingPage.html">Selling</a></p>
                 </div>
                
                 <p><i class="far fa-thumbs-up"></i>Share your Feedback</p>
@@ -170,29 +170,30 @@
             </div>
          </div>
             <div>
-                <a href="https://my.indiamart.com/enquiry/messagecentre/"><i class="far fa-comments"></i></a>
+                <a href="#"><i class="far fa-comments"></i></a>
                 <p class="navmenu3">Messages</p>
             </div>
-            <div id="up">
+            <div id="up">    
                 <a href=""><i class="fas fa-user"></i> </a>
                 <div class="menu3">
                 <select name="" id="optSign">
-                    <option>Sign In</option>
+                    <option id="UserName">Hi</option>
                 </select>
 
                 <!-- dropdown list -->
 
                 <div class="signPop">
-                    <div>
-                        <p><a href=""></a></p>
-                        <p class="p2"><a href="">Verify Now</a></p>
-                        <div><a href=""><i class="fas fa-pencil-alt"></i>View Profile</a></div>
+                    <div class="sig1">
+                     <div style="font-size: medium;"><p id="UserName2"></p></div>
+                     <div class="ico"><p id="UserNumb"></p><i class="fas fa-check-circle">Verified</i></div>
+                     <div ><a style="font-size: 12px;" href="myProfile.html"><i class="fas fa-pencil-alt"></i>View Profile</a></div>     
+                           
                     </div>
                     <hr>
                     <div class="profile">
-                        <p><a href=""><i class="fas fa-home"></i>Home</a></p>
-                        <p><a href=""><i class="fas fa-share"></i>Post Your Requirement</a></p>
-                        <p><a href=""><i class="fas fa-user-check"></i>Verified Business Buyer</a></p>
+                        <p><a href="index.html"><i class="fas fa-home"></i>Home</a></p>
+                        <p><a href="requirements.html"><i class="fas fa-share"></i>Post Your Requirement</a></p>
+                        <p><a href="buyer.html"><i class="fas fa-user-check"></i>Verified Business Buyer</a></p>
                         <p><a href=""><i class="fas fa-folder-open"></i>Products/Services Directory</a></p>
                         <p><a href=""><i class="far fa-comment-dots"></i>My Orders</a></p>
                         <p><a href=""><i class="fas fa-th"></i>Recent Activity</a></p>
@@ -445,5 +446,29 @@ div2.append(div3,div4);
 div1.append(h,div2)
 document.querySelector(".mainBag").append(div1);
 })
+
+var x = JSON.parse(localStorage.getItem("USERDATA"));
+    var j = JSON.parse(localStorage.getItem("UserNumber"));
+     var r = document.querySelector("#UserNumb");
+        r.textContent=j;
+    var elem = x[x.length-1];
+    if(x.length>0){
+        
+        var y = document.querySelector("#UserName");
+        y.textContent="";
+        y.textContent="Hi " + elem.UsrName;
+        var z = document.querySelector("#UserName1");
+        z.textContent="";
+        z.textContent=elem.UsrName;
+        var p = document.querySelector("#UserName2");
+        p.textContent="";
+        p.textContent=elem.UsrName;
+        var q = document.querySelector("#UserName3");
+        q.textContent="";
+        q.textContent=elem.UsrName;
+        var r = document.querySelector("#UserNumb");
+        r.text="";
+        r.textContent=elem.UsrNum;
+    }
 </script>
 <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>

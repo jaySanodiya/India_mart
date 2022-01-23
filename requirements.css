@@ -31,7 +31,7 @@
     }
     #nav > #div1 > .search{
     width:80%;
-    height:100%;
+    height:95%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
     }
     #nav > #div1>.search>div>input{
     width:60%;
-    height:95%;
+    height:100%;
     border:0;
     }
     #nav > #div1>.search>.sbar>#loc>button {
@@ -113,6 +113,7 @@
     color:white;
     background-color:rgb(46,49,146) ;
     border:0px;
+    margin-top: 5px;
     }
     #div1>.h_logo>img{
     width:100%;
@@ -170,7 +171,8 @@
     display: block;
     } 
     .search>.dis{
-    border:0px;
+    border:1px solid white;
+    padding:0 1px;
     border-radius: 2px;
     height:70%;
     margin:auto;
@@ -179,6 +181,7 @@
     color:rgb(46,49,146) ;
     font-weight: bolder;
     font-size: 15px;  
+    
     }
     .search>.dis a{
     text-decoration:none;
@@ -311,7 +314,7 @@
     background-color: white;
     text-align: justify;
     display: none;
-    margin-left: -50px;
+    margin-left: -150px;
     }
     .help p:hover{
     background-color:rgb(231, 231, 231);
@@ -350,17 +353,46 @@
     .menu2:hover .help{
     display: block;
     }
+   
     .signPop{
     width:250px;
-    height: 420px;
+    height: 440px;
     font-size: small;
     border-radius: 5px;
     background-color: white;
+    margin-left: -160px;
+    margin-top: -20px;
     display: none;
-    margin-left: -200px;
     text-align: justify;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
+    .signPop .sig1{
+      display: grid;
+      grid-gap: 15px;
+      padding-bottom: 29px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 35% 25% 30%;
+      justify-content: space-between;
+    }
+  
+    .signPop .sig1 p{
+      font-size: medium;
+    }
+    .signPop .sig1 .ico{
+      display: flex;
+    }
+    .signPop .sig1 .ico i{
+      color: rgb(83, 207, 83);
+      font-size:medium;
+      padding-left: 10px;
+    }
+    .signPop .sig1 a{
+      text-decoration: none;
+    }
+    .signPop .sig1 a:hover{
+      text-decoration: underline;
+    }
+    
     .signPop>div{
     margin-left: 25px;
     margin-top: 30px;
@@ -438,8 +470,8 @@
     display: block;
     }
   
-    /* -------------------------------------------nav end----------------------------------------- */
-
+  /* -------------------------------------------------------body----------------------------------------- */
+  
 #main{
     display: flex;
     position: absolute;

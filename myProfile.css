@@ -383,9 +383,14 @@
   .signPop .sig1 .ico{
     display: flex;
   }
+  .signPop .sig1 .ico > p{
+    margin-top: 10px;
+    border: 1px soild;
+  }
   .signPop .sig1 .ico i{
     color: rgb(83, 207, 83);
     font-size:medium;
+    margin-top: 10px;
     padding-left: 10px;
   }
   .signPop .sig1 a{

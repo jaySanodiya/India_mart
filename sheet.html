@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-
     <div id="nav">
         <div id="div1">
             <div class="h_logo">
@@ -215,6 +214,7 @@
             </div>
         </div>
 </div>
+
 
 
 <!-- -------------nev bar end---------- -->
@@ -835,4 +835,27 @@ var medical=[
     document.querySelector("#whole").append(div);
 });
 
+var x = JSON.parse(localStorage.getItem("USERDATA"));
+    var j = JSON.parse(localStorage.getItem("UserNumber"));
+     var r = document.querySelector("#UserNumb");
+        r.textContent=j;
+    var elem = x[x.length-1];
+    if(x.length>0){
+        
+        var y = document.querySelector("#UserName");
+        y.textContent="";
+        y.textContent="Hi " + elem.UsrName;
+        var z = document.querySelector("#UserName1");
+        z.textContent="";
+        z.textContent=elem.UsrName;
+        var p = document.querySelector("#UserName2");
+        p.textContent="";
+        p.textContent=elem.UsrName;
+        var q = document.querySelector("#UserName3");
+        q.textContent="";
+        q.textContent=elem.UsrName;
+        var r = document.querySelector("#UserNumb");
+        r.text="";
+        r.textContent=elem.UsrNum;
+    }
 </script>

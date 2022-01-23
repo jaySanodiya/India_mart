@@ -372,7 +372,7 @@
 <script>
     userData = [];
   function saveProfile(){
-    console.log("jay")
+   
     var a = document.querySelector("#uName").value;
     var b = document.querySelector("#uNumber").value;
     var c = document.querySelector("#uEmail").value;
@@ -385,6 +385,7 @@
       UsrEmail:c,
       UsrAltEmail:e
     };
+    console.log(UserObj)
     userData.push(UserObj);
     console.log(userData);
     localStorage.setItem("USERDATA",JSON.stringify(userData));
@@ -400,15 +401,15 @@
         var y = document.querySelector("#UserName");
         y.textContent="";
         y.textContent="Hi " + elem.UsrName;
-        var z = document.querySelector("#UserName1");
-        z.textContent="";
-        z.textContent=elem.UsrName;
+        // var z = document.querySelector("#UserName1");
+        // z.textContent="";
+        // z.textContent=elem.UsrName;
         var p = document.querySelector("#UserName2");
         p.textContent="";
         p.textContent=elem.UsrName;
-        var q = document.querySelector("#UserName3");
-        q.textContent="";
-        q.textContent=elem.UsrName;
+        // var q = document.querySelector("#UserName3");
+        // q.textContent="";
+        // q.textContent=elem.UsrName;
         // var r = document.querySelector("#UserNumb");
         // r.textContent=elem.UsrNum;
     }
